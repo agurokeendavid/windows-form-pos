@@ -33,6 +33,10 @@ namespace Login.Classes
                     ((XUICustomPictureBox)control).Image = Resources.picdefault;
                 else if (control is BunifuMetroTextbox)
                     ((BunifuMetroTextbox)control).Text = $"File Name :";
+                else if (control is TextBox)
+                    ((TextBox)control).Text = String.Empty;
+                else if (control is ComboBox)
+                    ((ComboBox)control).SelectedIndex = -1;
 
             }
         }
