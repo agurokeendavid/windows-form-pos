@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -80,11 +82,10 @@ namespace Login
         {
             int n = supplier_datagrid.Rows.Add();
 
-            supplier_datagrid.Rows[n].Cells[0].Value = supp_name.Text;
-            supplier_datagrid.Rows[n].Cells[1].Value = supp_add .Text;
-            supplier_datagrid.Rows[n].Cells[2].Value = comboBox4.Text;
-            supplier_datagrid.Rows[n].Cells[3].Value = email.Text;
-            supplier_datagrid.Rows[n].Cells[4].Value = supp_num.Text;
+            supplier_datagrid.Rows[n].Cells[0].Value = txtSupplierName.Text;
+            supplier_datagrid.Rows[n].Cells[1].Value = txtSupplierAddress .Text;
+            supplier_datagrid.Rows[n].Cells[3].Value = txtSupplierEmail.Text;
+            supplier_datagrid.Rows[n].Cells[4].Value = txtSupplierContactNo.Text;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -174,6 +175,27 @@ namespace Login
             {
                 Console.WriteLine(ex);
                 total_purchase.Text = "0";
+            }
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
+                {
+                    connection.Open();
+                    string query = "INSERT INTO (supplier_name, supplier_address, supplier_email, supplier_contact) VALUES (@supplier_name, @supplier_address, @supplier_email, @supplier_contact);";
+                    using (var command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.Add("supplier_name", MySqlDbType.VarChar).Value = txtSupplierName.Text;
+                        command.Parameters.Add("supplier_address", MySqlDbType.VarChar).Value = txtSupplierAddress.Text;
+                        command.Parameters.Add("supplier_email", MySqlDbType.VarChar).Value = txtSupplierEmail.Text;
+                        command.Parameters.Add("supplier_contact", MySqlDbType.VarChar).Value = txtSupplierContactNo.Text;
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Successfully Saved!");
+                    }
+                }
             }
         }
     }

@@ -120,17 +120,18 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Methods.cs" />
     <Compile Include="Files.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Files.Designer.cs">
       <DependentUpon>Files.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="HR.cs">
       <SubType>Form</SubType>
@@ -180,8 +181,8 @@
     <EmbeddedResource Include="Files.resx">
       <DependentUpon>Files.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HR.resx">
       <DependentUpon>HR.cs</DependentUpon>
@@ -245,6 +246,9 @@
       <Link>SqlServerTypes\x86\SqlServerSpatial110.dll</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\icons8-add-48.png" />
+    <None Include="Resources\icons8-clear-symbol-48.png" />
+    <None Include="Resources\picdefault.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

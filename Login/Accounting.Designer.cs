@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.purchase_datagrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
@@ -70,24 +70,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.supplier_datagrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.supplier_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supplier_address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supplier_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supplier_email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supplier_contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.supp_num = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.email = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.supp_add = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.supp_name = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.bacc_datagrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
@@ -132,6 +114,22 @@
             this.fin_statement_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.pro_loss_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.txtSupplierContactNo = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtSupplierEmail = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtSupplierAddress = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtSupplierName = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.supplier_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supplier_address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supplier_email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supplier_contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.purchase_datagrid)).BeginInit();
@@ -143,6 +141,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.expenses_datagrid)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -195,21 +194,21 @@
             // 
             // purchase_datagrid
             // 
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.purchase_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.purchase_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle35;
             this.purchase_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.purchase_datagrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.purchase_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.purchase_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.purchase_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.purchase_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.purchase_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle36;
             this.purchase_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.purchase_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.item,
@@ -236,41 +235,49 @@
             // item
             // 
             this.item.HeaderText = "Item";
+            this.item.MinimumWidth = 6;
             this.item.Name = "item";
             // 
             // number
             // 
             this.number.HeaderText = "No.";
+            this.number.MinimumWidth = 6;
             this.number.Name = "number";
             // 
             // price
             // 
             this.price.HeaderText = "Price";
+            this.price.MinimumWidth = 6;
             this.price.Name = "price";
             // 
             // qty
             // 
             this.qty.HeaderText = "Quantity";
+            this.qty.MinimumWidth = 6;
             this.qty.Name = "qty";
             // 
             // total
             // 
             this.total.HeaderText = "Total";
+            this.total.MinimumWidth = 6;
             this.total.Name = "total";
             // 
             // purchase_date
             // 
             this.purchase_date.HeaderText = "Date";
+            this.purchase_date.MinimumWidth = 6;
             this.purchase_date.Name = "purchase_date";
             // 
             // supplier
             // 
             this.supplier.HeaderText = "Supplier";
+            this.supplier.MinimumWidth = 6;
             this.supplier.Name = "supplier";
             // 
             // person_assigned
             // 
             this.person_assigned.HeaderText = "Person Assigned";
+            this.person_assigned.MinimumWidth = 6;
             this.person_assigned.Name = "person_assigned";
             // 
             // button3
@@ -486,20 +493,8 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Controls.Add(this.supplier_datagrid);
-            this.tabPage2.Controls.Add(this.button4);
-            this.tabPage2.Controls.Add(this.button5);
-            this.tabPage2.Controls.Add(this.button6);
-            this.tabPage2.Controls.Add(this.label14);
-            this.tabPage2.Controls.Add(this.comboBox4);
-            this.tabPage2.Controls.Add(this.supp_num);
-            this.tabPage2.Controls.Add(this.label13);
-            this.tabPage2.Controls.Add(this.email);
-            this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.supp_add);
-            this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.supp_name);
-            this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.ForeColor = System.Drawing.Color.SteelBlue;
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
@@ -510,26 +505,27 @@
             // 
             // supplier_datagrid
             // 
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.supplier_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            this.supplier_datagrid.AllowUserToAddRows = false;
+            this.supplier_datagrid.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.supplier_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle33;
             this.supplier_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.supplier_datagrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.supplier_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.supplier_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.supplier_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.supplier_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.supplier_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle34;
             this.supplier_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.supplier_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.supplier_name,
             this.supplier_address,
-            this.supplier_type,
             this.supplier_email,
             this.supplier_contact});
             this.supplier_datagrid.Dock = System.Windows.Forms.DockStyle.Right;
@@ -539,167 +535,12 @@
             this.supplier_datagrid.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
             this.supplier_datagrid.Location = new System.Drawing.Point(574, 3);
             this.supplier_datagrid.Name = "supplier_datagrid";
+            this.supplier_datagrid.ReadOnly = true;
             this.supplier_datagrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.supplier_datagrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.supplier_datagrid.RowTemplate.Height = 24;
             this.supplier_datagrid.Size = new System.Drawing.Size(728, 453);
             this.supplier_datagrid.TabIndex = 39;
-            // 
-            // supplier_name
-            // 
-            this.supplier_name.HeaderText = "Supplier Name";
-            this.supplier_name.Name = "supplier_name";
-            // 
-            // supplier_address
-            // 
-            this.supplier_address.HeaderText = "Supplier Address";
-            this.supplier_address.Name = "supplier_address";
-            // 
-            // supplier_type
-            // 
-            this.supplier_type.HeaderText = "Supplier Type";
-            this.supplier_type.Name = "supplier_type";
-            // 
-            // supplier_email
-            // 
-            this.supplier_email.HeaderText = "Email";
-            this.supplier_email.Name = "supplier_email";
-            // 
-            // supplier_contact
-            // 
-            this.supplier_contact.HeaderText = "Contact Number";
-            this.supplier_contact.Name = "supplier_contact";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.SteelBlue;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(387, 316);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(171, 64);
-            this.button4.TabIndex = 38;
-            this.button4.Text = "Delete";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.SteelBlue;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(210, 316);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(171, 64);
-            this.button5.TabIndex = 37;
-            this.button5.Text = "Update";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.SteelBlue;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button6.Location = new System.Drawing.Point(33, 316);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(171, 64);
-            this.button6.TabIndex = 36;
-            this.button6.Text = "Add";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(299, 131);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(134, 25);
-            this.label14.TabIndex = 35;
-            this.label14.Text = "Supplier Type";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Amazing",
-            "Tubes and Hose",
-            "Wow",
-            "Alcohol"});
-            this.comboBox4.Location = new System.Drawing.Point(303, 156);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(265, 33);
-            this.comboBox4.TabIndex = 34;
-            // 
-            // supp_num
-            // 
-            this.supp_num.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supp_num.Location = new System.Drawing.Point(303, 85);
-            this.supp_num.Name = "supp_num";
-            this.supp_num.Size = new System.Drawing.Size(265, 34);
-            this.supp_num.TabIndex = 33;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(298, 57);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(154, 25);
-            this.label13.TabIndex = 32;
-            this.label13.Text = "Contact Number";
-            // 
-            // email
-            // 
-            this.email.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.Location = new System.Drawing.Point(7, 231);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(265, 34);
-            this.email.TabIndex = 31;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(2, 203);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 25);
-            this.label12.TabIndex = 30;
-            this.label12.Text = "Email";
-            // 
-            // supp_add
-            // 
-            this.supp_add.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supp_add.Location = new System.Drawing.Point(7, 156);
-            this.supp_add.Name = "supp_add";
-            this.supp_add.Size = new System.Drawing.Size(265, 34);
-            this.supp_add.TabIndex = 29;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 131);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(162, 25);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Supplier Address";
-            // 
-            // supp_name
-            // 
-            this.supp_name.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.supp_name.Location = new System.Drawing.Point(7, 85);
-            this.supp_name.Name = "supp_name";
-            this.supp_name.Size = new System.Drawing.Size(265, 34);
-            this.supp_name.TabIndex = 27;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 60);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(141, 25);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Supplier Name";
             // 
             // tabPage3
             // 
@@ -743,21 +584,21 @@
             // 
             // bacc_datagrid
             // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bacc_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bacc_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.bacc_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bacc_datagrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.bacc_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.bacc_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bacc_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bacc_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bacc_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.bacc_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bacc_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.bank_account,
@@ -781,26 +622,31 @@
             // bank_account
             // 
             this.bank_account.HeaderText = "Bank Account";
+            this.bank_account.MinimumWidth = 6;
             this.bank_account.Name = "bank_account";
             // 
             // account_number
             // 
             this.account_number.HeaderText = "Account Number";
+            this.account_number.MinimumWidth = 6;
             this.account_number.Name = "account_number";
             // 
             // account_name
             // 
             this.account_name.HeaderText = "Account Name";
+            this.account_name.MinimumWidth = 6;
             this.account_name.Name = "account_name";
             // 
             // expiration
             // 
             this.expiration.HeaderText = "Expiration";
+            this.expiration.MinimumWidth = 6;
             this.expiration.Name = "expiration";
             // 
             // card_type
             // 
             this.card_type.HeaderText = "Card Type";
+            this.card_type.MinimumWidth = 6;
             this.card_type.Name = "card_type";
             // 
             // label18
@@ -968,20 +814,20 @@
             // 
             // expenses_datagrid
             // 
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.expenses_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.expenses_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle39;
             this.expenses_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.expenses_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.expenses_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.expenses_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.expenses_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.expenses_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.expenses_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.expenses_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.expenses_description,
@@ -1005,26 +851,31 @@
             // expenses_description
             // 
             this.expenses_description.HeaderText = "Expenses Description";
+            this.expenses_description.MinimumWidth = 6;
             this.expenses_description.Name = "expenses_description";
             // 
             // expenses_amount
             // 
             this.expenses_amount.HeaderText = "Amount";
+            this.expenses_amount.MinimumWidth = 6;
             this.expenses_amount.Name = "expenses_amount";
             // 
             // assigned_person
             // 
             this.assigned_person.HeaderText = "Person Assigned";
+            this.assigned_person.MinimumWidth = 6;
             this.assigned_person.Name = "assigned_person";
             // 
             // date
             // 
             this.date.HeaderText = "Date";
+            this.date.MinimumWidth = 6;
             this.date.Name = "date";
             // 
             // department
             // 
             this.department.HeaderText = "Department";
+            this.department.MinimumWidth = 6;
             this.department.Name = "department";
             // 
             // button10
@@ -1183,6 +1034,160 @@
             this.pro_loss_viewer.Size = new System.Drawing.Size(1305, 459);
             this.pro_loss_viewer.TabIndex = 0;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnDelete);
+            this.panel1.Controls.Add(this.btnUpdate);
+            this.panel1.Controls.Add(this.btnAdd);
+            this.panel1.Controls.Add(this.txtSupplierContactNo);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.txtSupplierEmail);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.txtSupplierAddress);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.txtSupplierName);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(568, 459);
+            this.panel1.TabIndex = 40;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnDelete.Location = new System.Drawing.Point(383, 274);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(171, 64);
+            this.btnDelete.TabIndex = 49;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnUpdate.Location = new System.Drawing.Point(206, 274);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(171, 64);
+            this.btnUpdate.TabIndex = 48;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAdd.Location = new System.Drawing.Point(29, 274);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(171, 64);
+            this.btnAdd.TabIndex = 47;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // txtSupplierContactNo
+            // 
+            this.txtSupplierContactNo.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSupplierContactNo.Location = new System.Drawing.Point(289, 149);
+            this.txtSupplierContactNo.Name = "txtSupplierContactNo";
+            this.txtSupplierContactNo.Size = new System.Drawing.Size(265, 34);
+            this.txtSupplierContactNo.TabIndex = 46;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(284, 121);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(154, 25);
+            this.label13.TabIndex = 45;
+            this.label13.Text = "Contact Number";
+            // 
+            // txtSupplierEmail
+            // 
+            this.txtSupplierEmail.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSupplierEmail.Location = new System.Drawing.Point(289, 220);
+            this.txtSupplierEmail.Name = "txtSupplierEmail";
+            this.txtSupplierEmail.Size = new System.Drawing.Size(265, 34);
+            this.txtSupplierEmail.TabIndex = 44;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(284, 192);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(60, 25);
+            this.label12.TabIndex = 43;
+            this.label12.Text = "Email";
+            // 
+            // txtSupplierAddress
+            // 
+            this.txtSupplierAddress.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSupplierAddress.Location = new System.Drawing.Point(18, 220);
+            this.txtSupplierAddress.Name = "txtSupplierAddress";
+            this.txtSupplierAddress.Size = new System.Drawing.Size(265, 34);
+            this.txtSupplierAddress.TabIndex = 42;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(14, 195);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(162, 25);
+            this.label11.TabIndex = 41;
+            this.label11.Text = "Supplier Address";
+            // 
+            // txtSupplierName
+            // 
+            this.txtSupplierName.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSupplierName.Location = new System.Drawing.Point(18, 149);
+            this.txtSupplierName.Name = "txtSupplierName";
+            this.txtSupplierName.Size = new System.Drawing.Size(265, 34);
+            this.txtSupplierName.TabIndex = 40;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(14, 124);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(141, 25);
+            this.label10.TabIndex = 39;
+            this.label10.Text = "Supplier Name";
+            // 
+            // supplier_name
+            // 
+            this.supplier_name.HeaderText = "Supplier Name";
+            this.supplier_name.MinimumWidth = 6;
+            this.supplier_name.Name = "supplier_name";
+            this.supplier_name.ReadOnly = true;
+            // 
+            // supplier_address
+            // 
+            this.supplier_address.HeaderText = "Supplier Address";
+            this.supplier_address.MinimumWidth = 6;
+            this.supplier_address.Name = "supplier_address";
+            this.supplier_address.ReadOnly = true;
+            // 
+            // supplier_email
+            // 
+            this.supplier_email.HeaderText = "Email";
+            this.supplier_email.MinimumWidth = 6;
+            this.supplier_email.Name = "supplier_email";
+            this.supplier_email.ReadOnly = true;
+            // 
+            // supplier_contact
+            // 
+            this.supplier_contact.HeaderText = "Contact Number";
+            this.supplier_contact.MinimumWidth = 6;
+            this.supplier_contact.Name = "supplier_contact";
+            this.supplier_contact.ReadOnly = true;
+            // 
             // Accounting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1198,7 +1203,6 @@
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.purchase_datagrid)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.supplier_datagrid)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
@@ -1208,6 +1212,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.expenses_datagrid)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1251,25 +1257,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn purchase_date;
         private System.Windows.Forms.DataGridViewTextBoxColumn supplier;
         private System.Windows.Forms.DataGridViewTextBoxColumn person_assigned;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.TextBox supp_num;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox email;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox supp_add;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox supp_name;
-        private System.Windows.Forms.Label label10;
         private Bunifu.Framework.UI.BunifuCustomDataGrid supplier_datagrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_address;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_contact;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
@@ -1310,5 +1298,21 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn assigned_person;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.DataGridViewTextBoxColumn department;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox txtSupplierContactNo;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtSupplierEmail;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtSupplierAddress;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtSupplierName;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_address;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn supplier_contact;
     }
 }
