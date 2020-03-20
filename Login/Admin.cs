@@ -30,7 +30,7 @@ namespace Login
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            Accounting ac = new Login.Accounting();
+            Accounting ac = new global::Login.Accounting();
             ac.TopLevel = false;
             panel1.Controls.Add(ac);
             ac.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -41,7 +41,7 @@ namespace Login
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            Inventory it = new Login.Inventory();
+            Inventory it = new global::Login.Inventory();
             it.TopLevel = false;
             panel1.Controls.Add(it);
             it.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -52,7 +52,7 @@ namespace Login
         private void bunifuFlatButton4_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            HR h = new Login.HR();
+            HR h = new global::Login.HR();
             h.TopLevel = false;
             panel1.Controls.Add(h);
             h.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -63,7 +63,7 @@ namespace Login
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            Monitoring mt = new Login.Monitoring();
+            Monitoring mt = new global::Login.Monitoring();
             mt.TopLevel = false;
             panel1.Controls.Add(mt);
             mt.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -74,7 +74,7 @@ namespace Login
         private void bunifuFlatButton5_Click(object sender, EventArgs e)
         {
             panel1.Controls.Clear();
-            Files f = new Login.Files();
+            Files f = new global::Login.Files();
             f.TopLevel = false;
             panel1.Controls.Add(f);
             f.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

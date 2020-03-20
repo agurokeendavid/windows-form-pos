@@ -34,8 +34,8 @@ namespace Login
 
         private void payment_Load(object sender, EventArgs e)
         {
-            bunifuMetroTextbox3.Text = Login.Menu.pass;
-            bunifuMetroTextbox5.Text = Login.Menu.diss;
+            bunifuMetroTextbox3.Text = global::Login.Menu.pass;
+            bunifuMetroTextbox5.Text = global::Login.Menu.diss;
         }
 
         private void button2_Click(object sender, EventArgs e)
