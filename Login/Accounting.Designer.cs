@@ -61,6 +61,15 @@
             this.txtPurchasesItem = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dtgPurchases = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.purchase_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.purchase_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.supplier = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.person_assigned = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabSupplier = new System.Windows.Forms.TabPage();
             this.pnlSupplier = new System.Windows.Forms.Panel();
             this.btnSupplierDelete = new System.Windows.Forms.Button();
@@ -80,59 +89,54 @@
             this.supplier_address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.supplier_email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.supplier_contact = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.bacc_datagrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.tabBankAccounts = new System.Windows.Forms.TabPage();
+            this.dtgBankAccounts = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.tabExpenses = new System.Windows.Forms.TabPage();
+            this.dtgExpenses = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.fin_statement_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.pro_loss_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.pnlBankAccounts = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.btnBankAccountDelete = new System.Windows.Forms.Button();
+            this.btnBankAccountUpdate = new System.Windows.Forms.Button();
+            this.btbnBankAccountAdd = new System.Windows.Forms.Button();
+            this.cmbCardType = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtAccountName = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtAccountNumber = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtBankAccount = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.bankaccount_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bank_account = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.account_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.account_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.expiration = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.card_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label18 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.card = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.acc_name = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.acc_num = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.bacc = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
-            this.expenses_datagrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.dtpBankAccountExpiration = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.pnlExpenses = new System.Windows.Forms.Panel();
+            this.btnExpensesDelete = new System.Windows.Forms.Button();
+            this.btnExpensesUpdate = new System.Windows.Forms.Button();
+            this.btnExpensesAdd = new System.Windows.Forms.Button();
+            this.cmbExpensesDepartment = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.txtExpensesAmount = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txtExpensesDesc = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.dtpExpensesDate = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.cmbExpensesPersonAssigned = new System.Windows.Forms.ComboBox();
+            this.expenses_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.expenses_description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.expenses_amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.assigned_person = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.department = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.dept = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.assigned = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.amount = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.expense_desc = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.fin_statement_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.pro_loss_viewer = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.purchase_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.item = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.total = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.purchase_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.supplier = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.person_assigned = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.expenses_department = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPurchases.SuspendLayout();
             this.pnlPurchases.SuspendLayout();
@@ -140,20 +144,22 @@
             this.tabSupplier.SuspendLayout();
             this.pnlSupplier.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgSupplier)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bacc_datagrid)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.expenses_datagrid)).BeginInit();
+            this.tabBankAccounts.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBankAccounts)).BeginInit();
+            this.tabExpenses.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgExpenses)).BeginInit();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.pnlBankAccounts.SuspendLayout();
+            this.pnlExpenses.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPurchases);
             this.tabControl1.Controls.Add(this.tabSupplier);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabBankAccounts);
+            this.tabControl1.Controls.Add(this.tabExpenses);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -454,6 +460,79 @@
             this.dtgPurchases.TabIndex = 12;
             this.dtgPurchases.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgPurchases_CellDoubleClick);
             // 
+            // purchase_id
+            // 
+            this.purchase_id.DataPropertyName = "purchase_id";
+            this.purchase_id.HeaderText = "Purchase ID";
+            this.purchase_id.MinimumWidth = 6;
+            this.purchase_id.Name = "purchase_id";
+            this.purchase_id.ReadOnly = true;
+            this.purchase_id.Visible = false;
+            // 
+            // item
+            // 
+            this.item.DataPropertyName = "purchase_item";
+            this.item.HeaderText = "Item";
+            this.item.MinimumWidth = 6;
+            this.item.Name = "item";
+            this.item.ReadOnly = true;
+            // 
+            // number
+            // 
+            this.number.DataPropertyName = "purchase_number";
+            this.number.HeaderText = "No.";
+            this.number.MinimumWidth = 6;
+            this.number.Name = "number";
+            this.number.ReadOnly = true;
+            // 
+            // price
+            // 
+            this.price.DataPropertyName = "price";
+            this.price.HeaderText = "Price";
+            this.price.MinimumWidth = 6;
+            this.price.Name = "price";
+            this.price.ReadOnly = true;
+            // 
+            // qty
+            // 
+            this.qty.DataPropertyName = "quantity";
+            this.qty.HeaderText = "Quantity";
+            this.qty.MinimumWidth = 6;
+            this.qty.Name = "qty";
+            this.qty.ReadOnly = true;
+            // 
+            // total
+            // 
+            this.total.DataPropertyName = "total_amount";
+            this.total.HeaderText = "Total";
+            this.total.MinimumWidth = 6;
+            this.total.Name = "total";
+            this.total.ReadOnly = true;
+            // 
+            // purchase_date
+            // 
+            this.purchase_date.DataPropertyName = "purchase_date";
+            this.purchase_date.HeaderText = "Date";
+            this.purchase_date.MinimumWidth = 6;
+            this.purchase_date.Name = "purchase_date";
+            this.purchase_date.ReadOnly = true;
+            // 
+            // supplier
+            // 
+            this.supplier.DataPropertyName = "supplier_name";
+            this.supplier.HeaderText = "Supplier";
+            this.supplier.MinimumWidth = 6;
+            this.supplier.Name = "supplier";
+            this.supplier.ReadOnly = true;
+            // 
+            // person_assigned
+            // 
+            this.person_assigned.DataPropertyName = "fullname";
+            this.person_assigned.HeaderText = "Person Assigned";
+            this.person_assigned.MinimumWidth = 6;
+            this.person_assigned.Name = "person_assigned";
+            this.person_assigned.ReadOnly = true;
+            // 
             // tabSupplier
             // 
             this.tabSupplier.BackColor = System.Drawing.Color.AliceBlue;
@@ -676,55 +755,30 @@
             this.supplier_contact.Name = "supplier_contact";
             this.supplier_contact.ReadOnly = true;
             // 
-            // tabPage3
+            // tabBankAccounts
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.AliceBlue;
-            this.tabPage3.Controls.Add(this.bunifuDatepicker1);
-            this.tabPage3.Controls.Add(this.bacc_datagrid);
-            this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.button7);
-            this.tabPage3.Controls.Add(this.button8);
-            this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.card);
-            this.tabPage3.Controls.Add(this.label19);
-            this.tabPage3.Controls.Add(this.acc_name);
-            this.tabPage3.Controls.Add(this.label17);
-            this.tabPage3.Controls.Add(this.acc_num);
-            this.tabPage3.Controls.Add(this.label15);
-            this.tabPage3.Controls.Add(this.bacc);
-            this.tabPage3.Controls.Add(this.label16);
-            this.tabPage3.ForeColor = System.Drawing.Color.SteelBlue;
-            this.tabPage3.Location = new System.Drawing.Point(4, 34);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1305, 459);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Bank Accounts";
+            this.tabBankAccounts.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabBankAccounts.Controls.Add(this.pnlBankAccounts);
+            this.tabBankAccounts.Controls.Add(this.dtgBankAccounts);
+            this.tabBankAccounts.ForeColor = System.Drawing.Color.SteelBlue;
+            this.tabBankAccounts.Location = new System.Drawing.Point(4, 34);
+            this.tabBankAccounts.Name = "tabBankAccounts";
+            this.tabBankAccounts.Size = new System.Drawing.Size(1305, 459);
+            this.tabBankAccounts.TabIndex = 2;
+            this.tabBankAccounts.Text = "Bank Accounts";
+            this.tabBankAccounts.Leave += new System.EventHandler(this.tabBankAccounts_Leave);
             // 
-            // bunifuDatepicker1
+            // dtgBankAccounts
             // 
-            this.bunifuDatepicker1.BackColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.BorderRadius = 0;
-            this.bunifuDatepicker1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(281, 81);
-            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(264, 34);
-            this.bunifuDatepicker1.TabIndex = 44;
-            this.bunifuDatepicker1.Value = new System.DateTime(2020, 2, 27, 10, 5, 52, 293);
-            // 
-            // bacc_datagrid
-            // 
+            this.dtgBankAccounts.AllowUserToAddRows = false;
+            this.dtgBankAccounts.AllowUserToDeleteRows = false;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bacc_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.bacc_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bacc_datagrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.bacc_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bacc_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bacc_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgBankAccounts.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dtgBankAccounts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgBankAccounts.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dtgBankAccounts.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dtgBankAccounts.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgBankAccounts.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -732,226 +786,53 @@
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bacc_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.bacc_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bacc_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgBankAccounts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dtgBankAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgBankAccounts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.bankaccount_id,
             this.bank_account,
             this.account_number,
             this.account_name,
             this.expiration,
             this.card_type});
-            this.bacc_datagrid.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bacc_datagrid.DoubleBuffered = true;
-            this.bacc_datagrid.EnableHeadersVisualStyles = false;
-            this.bacc_datagrid.HeaderBgColor = System.Drawing.Color.SteelBlue;
-            this.bacc_datagrid.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
-            this.bacc_datagrid.Location = new System.Drawing.Point(567, 0);
-            this.bacc_datagrid.Name = "bacc_datagrid";
-            this.bacc_datagrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bacc_datagrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.bacc_datagrid.RowTemplate.Height = 24;
-            this.bacc_datagrid.Size = new System.Drawing.Size(738, 459);
-            this.bacc_datagrid.TabIndex = 43;
+            this.dtgBankAccounts.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dtgBankAccounts.DoubleBuffered = true;
+            this.dtgBankAccounts.EnableHeadersVisualStyles = false;
+            this.dtgBankAccounts.HeaderBgColor = System.Drawing.Color.SteelBlue;
+            this.dtgBankAccounts.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dtgBankAccounts.Location = new System.Drawing.Point(567, 0);
+            this.dtgBankAccounts.Name = "dtgBankAccounts";
+            this.dtgBankAccounts.ReadOnly = true;
+            this.dtgBankAccounts.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgBankAccounts.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dtgBankAccounts.RowTemplate.Height = 24;
+            this.dtgBankAccounts.Size = new System.Drawing.Size(738, 459);
+            this.dtgBankAccounts.TabIndex = 43;
+            this.dtgBankAccounts.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgBankAccounts_CellDoubleClick);
             // 
-            // bank_account
+            // tabExpenses
             // 
-            this.bank_account.HeaderText = "Bank Account";
-            this.bank_account.MinimumWidth = 6;
-            this.bank_account.Name = "bank_account";
+            this.tabExpenses.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabExpenses.Controls.Add(this.pnlExpenses);
+            this.tabExpenses.Controls.Add(this.dtgExpenses);
+            this.tabExpenses.ForeColor = System.Drawing.Color.SteelBlue;
+            this.tabExpenses.Location = new System.Drawing.Point(4, 34);
+            this.tabExpenses.Name = "tabExpenses";
+            this.tabExpenses.Size = new System.Drawing.Size(1305, 459);
+            this.tabExpenses.TabIndex = 3;
+            this.tabExpenses.Text = "Expenses";
+            this.tabExpenses.Leave += new System.EventHandler(this.tabExpenses_Leave);
             // 
-            // account_number
+            // dtgExpenses
             // 
-            this.account_number.HeaderText = "Account Number";
-            this.account_number.MinimumWidth = 6;
-            this.account_number.Name = "account_number";
-            // 
-            // account_name
-            // 
-            this.account_name.HeaderText = "Account Name";
-            this.account_name.MinimumWidth = 6;
-            this.account_name.Name = "account_name";
-            // 
-            // expiration
-            // 
-            this.expiration.HeaderText = "Expiration";
-            this.expiration.MinimumWidth = 6;
-            this.expiration.Name = "expiration";
-            // 
-            // card_type
-            // 
-            this.card_type.HeaderText = "Card Type";
-            this.card_type.MinimumWidth = 6;
-            this.card_type.Name = "card_type";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 309);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(105, 25);
-            this.label18.TabIndex = 42;
-            this.label18.Text = "Card Type";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.SteelBlue;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button7.Location = new System.Drawing.Point(334, 303);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(176, 64);
-            this.button7.TabIndex = 41;
-            this.button7.Text = "Delete";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.SteelBlue;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button8.Location = new System.Drawing.Point(334, 231);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(176, 64);
-            this.button8.TabIndex = 40;
-            this.button8.Text = "Update";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.SteelBlue;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button9.Location = new System.Drawing.Point(334, 161);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(176, 64);
-            this.button9.TabIndex = 39;
-            this.button9.Text = "Add";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // card
-            // 
-            this.card.FormattingEnabled = true;
-            this.card.Items.AddRange(new object[] {
-            "Visa",
-            "MasterCard",
-            "Amex",
-            "Debit",
-            "Express"});
-            this.card.Location = new System.Drawing.Point(7, 334);
-            this.card.Name = "card";
-            this.card.Size = new System.Drawing.Size(265, 33);
-            this.card.TabIndex = 38;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(287, 56);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(98, 25);
-            this.label19.TabIndex = 36;
-            this.label19.Text = "Expiration";
-            // 
-            // acc_name
-            // 
-            this.acc_name.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acc_name.Location = new System.Drawing.Point(7, 247);
-            this.acc_name.Name = "acc_name";
-            this.acc_name.Size = new System.Drawing.Size(265, 34);
-            this.acc_name.TabIndex = 35;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 222);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(141, 25);
-            this.label17.TabIndex = 34;
-            this.label17.Text = "Account Name";
-            // 
-            // acc_num
-            // 
-            this.acc_num.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acc_num.Location = new System.Drawing.Point(7, 161);
-            this.acc_num.Name = "acc_num";
-            this.acc_num.Size = new System.Drawing.Size(265, 34);
-            this.acc_num.TabIndex = 33;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 136);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(158, 25);
-            this.label15.TabIndex = 32;
-            this.label15.Text = "Account Number";
-            // 
-            // bacc
-            // 
-            this.bacc.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bacc.Location = new System.Drawing.Point(7, 81);
-            this.bacc.Name = "bacc";
-            this.bacc.Size = new System.Drawing.Size(265, 34);
-            this.bacc.TabIndex = 31;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 56);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(134, 25);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Bank Account";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.AliceBlue;
-            this.tabPage4.Controls.Add(this.bunifuDatepicker2);
-            this.tabPage4.Controls.Add(this.expenses_datagrid);
-            this.tabPage4.Controls.Add(this.button10);
-            this.tabPage4.Controls.Add(this.button11);
-            this.tabPage4.Controls.Add(this.button12);
-            this.tabPage4.Controls.Add(this.dept);
-            this.tabPage4.Controls.Add(this.label24);
-            this.tabPage4.Controls.Add(this.label22);
-            this.tabPage4.Controls.Add(this.assigned);
-            this.tabPage4.Controls.Add(this.label23);
-            this.tabPage4.Controls.Add(this.amount);
-            this.tabPage4.Controls.Add(this.label21);
-            this.tabPage4.Controls.Add(this.expense_desc);
-            this.tabPage4.Controls.Add(this.label20);
-            this.tabPage4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.tabPage4.Location = new System.Drawing.Point(4, 34);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1305, 459);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Expenses";
-            // 
-            // bunifuDatepicker2
-            // 
-            this.bunifuDatepicker2.BackColor = System.Drawing.Color.White;
-            this.bunifuDatepicker2.BorderRadius = 0;
-            this.bunifuDatepicker2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker2.FormatCustom = null;
-            this.bunifuDatepicker2.Location = new System.Drawing.Point(293, 183);
-            this.bunifuDatepicker2.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
-            this.bunifuDatepicker2.Size = new System.Drawing.Size(248, 34);
-            this.bunifuDatepicker2.TabIndex = 46;
-            this.bunifuDatepicker2.Value = new System.DateTime(2020, 2, 27, 10, 11, 52, 986);
-            // 
-            // expenses_datagrid
-            // 
+            this.dtgExpenses.AllowUserToAddRows = false;
+            this.dtgExpenses.AllowUserToDeleteRows = false;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.expenses_datagrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            this.expenses_datagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.expenses_datagrid.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.expenses_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.expenses_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgExpenses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.dtgExpenses.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgExpenses.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dtgExpenses.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgExpenses.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.SteelBlue;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -959,172 +840,29 @@
             dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.expenses_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.expenses_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.expenses_datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgExpenses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dtgExpenses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgExpenses.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.expenses_id,
             this.expenses_description,
             this.expenses_amount,
             this.assigned_person,
             this.date,
-            this.department});
-            this.expenses_datagrid.Dock = System.Windows.Forms.DockStyle.Right;
-            this.expenses_datagrid.DoubleBuffered = true;
-            this.expenses_datagrid.EnableHeadersVisualStyles = false;
-            this.expenses_datagrid.HeaderBgColor = System.Drawing.Color.SteelBlue;
-            this.expenses_datagrid.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
-            this.expenses_datagrid.Location = new System.Drawing.Point(547, 0);
-            this.expenses_datagrid.Name = "expenses_datagrid";
-            this.expenses_datagrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.expenses_datagrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.expenses_datagrid.RowTemplate.Height = 24;
-            this.expenses_datagrid.Size = new System.Drawing.Size(758, 459);
-            this.expenses_datagrid.TabIndex = 45;
-            // 
-            // expenses_description
-            // 
-            this.expenses_description.HeaderText = "Expenses Description";
-            this.expenses_description.MinimumWidth = 6;
-            this.expenses_description.Name = "expenses_description";
-            // 
-            // expenses_amount
-            // 
-            this.expenses_amount.HeaderText = "Amount";
-            this.expenses_amount.MinimumWidth = 6;
-            this.expenses_amount.Name = "expenses_amount";
-            // 
-            // assigned_person
-            // 
-            this.assigned_person.HeaderText = "Person Assigned";
-            this.assigned_person.MinimumWidth = 6;
-            this.assigned_person.Name = "assigned_person";
-            // 
-            // date
-            // 
-            this.date.HeaderText = "Date";
-            this.date.MinimumWidth = 6;
-            this.date.Name = "date";
-            // 
-            // department
-            // 
-            this.department.HeaderText = "Department";
-            this.department.MinimumWidth = 6;
-            this.department.Name = "department";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.SteelBlue;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button10.Location = new System.Drawing.Point(193, 336);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(152, 49);
-            this.button10.TabIndex = 44;
-            this.button10.Text = "Delete";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.SteelBlue;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button11.Location = new System.Drawing.Point(351, 336);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(152, 49);
-            this.button11.TabIndex = 43;
-            this.button11.Text = "Update";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.SteelBlue;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button12.Location = new System.Drawing.Point(35, 336);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(152, 49);
-            this.button12.TabIndex = 42;
-            this.button12.Text = "Add";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // dept
-            // 
-            this.dept.FormattingEnabled = true;
-            this.dept.Location = new System.Drawing.Point(293, 101);
-            this.dept.Name = "dept";
-            this.dept.Size = new System.Drawing.Size(248, 33);
-            this.dept.TabIndex = 41;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(289, 76);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(113, 25);
-            this.label24.TabIndex = 40;
-            this.label24.Text = "Department";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(288, 159);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(53, 25);
-            this.label22.TabIndex = 38;
-            this.label22.Text = "Date";
-            // 
-            // assigned
-            // 
-            this.assigned.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.assigned.Location = new System.Drawing.Point(8, 262);
-            this.assigned.Name = "assigned";
-            this.assigned.Size = new System.Drawing.Size(265, 34);
-            this.assigned.TabIndex = 37;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(4, 237);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(161, 25);
-            this.label23.TabIndex = 36;
-            this.label23.Text = "Person Assigned";
-            // 
-            // amount
-            // 
-            this.amount.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.amount.Location = new System.Drawing.Point(7, 183);
-            this.amount.Name = "amount";
-            this.amount.Size = new System.Drawing.Size(265, 34);
-            this.amount.TabIndex = 35;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 158);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(80, 25);
-            this.label21.TabIndex = 34;
-            this.label21.Text = "Amount";
-            // 
-            // expense_desc
-            // 
-            this.expense_desc.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expense_desc.Location = new System.Drawing.Point(7, 100);
-            this.expense_desc.Name = "expense_desc";
-            this.expense_desc.Size = new System.Drawing.Size(265, 34);
-            this.expense_desc.TabIndex = 33;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 75);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(154, 25);
-            this.label20.TabIndex = 32;
-            this.label20.Text = "Expenses Desc.";
+            this.expenses_department});
+            this.dtgExpenses.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dtgExpenses.DoubleBuffered = true;
+            this.dtgExpenses.EnableHeadersVisualStyles = false;
+            this.dtgExpenses.HeaderBgColor = System.Drawing.Color.SteelBlue;
+            this.dtgExpenses.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dtgExpenses.Location = new System.Drawing.Point(547, 0);
+            this.dtgExpenses.Name = "dtgExpenses";
+            this.dtgExpenses.ReadOnly = true;
+            this.dtgExpenses.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgExpenses.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dtgExpenses.RowTemplate.Height = 24;
+            this.dtgExpenses.Size = new System.Drawing.Size(758, 459);
+            this.dtgExpenses.TabIndex = 8;
+            this.dtgExpenses.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgExpenses_CellDoubleClick);
             // 
             // tabPage5
             // 
@@ -1164,78 +902,424 @@
             this.pro_loss_viewer.Size = new System.Drawing.Size(1305, 459);
             this.pro_loss_viewer.TabIndex = 0;
             // 
-            // purchase_id
+            // pnlBankAccounts
             // 
-            this.purchase_id.DataPropertyName = "purchase_id";
-            this.purchase_id.HeaderText = "Purchase ID";
-            this.purchase_id.MinimumWidth = 6;
-            this.purchase_id.Name = "purchase_id";
-            this.purchase_id.ReadOnly = true;
-            this.purchase_id.Visible = false;
+            this.pnlBankAccounts.Controls.Add(this.dtpBankAccountExpiration);
+            this.pnlBankAccounts.Controls.Add(this.label18);
+            this.pnlBankAccounts.Controls.Add(this.btnBankAccountDelete);
+            this.pnlBankAccounts.Controls.Add(this.btnBankAccountUpdate);
+            this.pnlBankAccounts.Controls.Add(this.btbnBankAccountAdd);
+            this.pnlBankAccounts.Controls.Add(this.cmbCardType);
+            this.pnlBankAccounts.Controls.Add(this.label19);
+            this.pnlBankAccounts.Controls.Add(this.txtAccountName);
+            this.pnlBankAccounts.Controls.Add(this.label17);
+            this.pnlBankAccounts.Controls.Add(this.txtAccountNumber);
+            this.pnlBankAccounts.Controls.Add(this.label15);
+            this.pnlBankAccounts.Controls.Add(this.txtBankAccount);
+            this.pnlBankAccounts.Controls.Add(this.label16);
+            this.pnlBankAccounts.Location = new System.Drawing.Point(0, 0);
+            this.pnlBankAccounts.Name = "pnlBankAccounts";
+            this.pnlBankAccounts.Size = new System.Drawing.Size(561, 459);
+            this.pnlBankAccounts.TabIndex = 44;
             // 
-            // item
+            // label18
             // 
-            this.item.DataPropertyName = "purchase_item";
-            this.item.HeaderText = "Item";
-            this.item.MinimumWidth = 6;
-            this.item.Name = "item";
-            this.item.ReadOnly = true;
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(27, 261);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(105, 25);
+            this.label18.TabIndex = 56;
+            this.label18.Text = "Card Type";
             // 
-            // number
+            // btnBankAccountDelete
             // 
-            this.number.DataPropertyName = "purchase_number";
-            this.number.HeaderText = "No.";
-            this.number.MinimumWidth = 6;
-            this.number.Name = "number";
-            this.number.ReadOnly = true;
+            this.btnBankAccountDelete.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnBankAccountDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBankAccountDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBankAccountDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnBankAccountDelete.Location = new System.Drawing.Point(358, 268);
+            this.btnBankAccountDelete.Name = "btnBankAccountDelete";
+            this.btnBankAccountDelete.Size = new System.Drawing.Size(176, 64);
+            this.btnBankAccountDelete.TabIndex = 55;
+            this.btnBankAccountDelete.Text = "Delete";
+            this.btnBankAccountDelete.UseVisualStyleBackColor = false;
             // 
-            // price
+            // btnBankAccountUpdate
             // 
-            this.price.DataPropertyName = "price";
-            this.price.HeaderText = "Price";
-            this.price.MinimumWidth = 6;
-            this.price.Name = "price";
-            this.price.ReadOnly = true;
+            this.btnBankAccountUpdate.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnBankAccountUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBankAccountUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBankAccountUpdate.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnBankAccountUpdate.Location = new System.Drawing.Point(358, 196);
+            this.btnBankAccountUpdate.Name = "btnBankAccountUpdate";
+            this.btnBankAccountUpdate.Size = new System.Drawing.Size(176, 64);
+            this.btnBankAccountUpdate.TabIndex = 54;
+            this.btnBankAccountUpdate.Text = "Update";
+            this.btnBankAccountUpdate.UseVisualStyleBackColor = false;
             // 
-            // qty
+            // btbnBankAccountAdd
             // 
-            this.qty.DataPropertyName = "quantity";
-            this.qty.HeaderText = "Quantity";
-            this.qty.MinimumWidth = 6;
-            this.qty.Name = "qty";
-            this.qty.ReadOnly = true;
+            this.btbnBankAccountAdd.BackColor = System.Drawing.Color.SteelBlue;
+            this.btbnBankAccountAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btbnBankAccountAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btbnBankAccountAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btbnBankAccountAdd.Location = new System.Drawing.Point(358, 126);
+            this.btbnBankAccountAdd.Name = "btbnBankAccountAdd";
+            this.btbnBankAccountAdd.Size = new System.Drawing.Size(176, 64);
+            this.btbnBankAccountAdd.TabIndex = 53;
+            this.btbnBankAccountAdd.Text = "Add";
+            this.btbnBankAccountAdd.UseVisualStyleBackColor = false;
+            this.btbnBankAccountAdd.Click += new System.EventHandler(this.btbnBankAccountAdd_Click);
             // 
-            // total
+            // cmbCardType
             // 
-            this.total.DataPropertyName = "total_amount";
-            this.total.HeaderText = "Total";
-            this.total.MinimumWidth = 6;
-            this.total.Name = "total";
-            this.total.ReadOnly = true;
+            this.cmbCardType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCardType.FormattingEnabled = true;
+            this.cmbCardType.Items.AddRange(new object[] {
+            "Visa",
+            "MasterCard",
+            "Amex",
+            "Debit",
+            "Express"});
+            this.cmbCardType.Location = new System.Drawing.Point(31, 286);
+            this.cmbCardType.Name = "cmbCardType";
+            this.cmbCardType.Size = new System.Drawing.Size(265, 33);
+            this.cmbCardType.TabIndex = 52;
             // 
-            // purchase_date
+            // label19
             // 
-            this.purchase_date.DataPropertyName = "purchase_date";
-            this.purchase_date.HeaderText = "Date";
-            this.purchase_date.MinimumWidth = 6;
-            this.purchase_date.Name = "purchase_date";
-            this.purchase_date.ReadOnly = true;
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(27, 322);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(98, 25);
+            this.label19.TabIndex = 51;
+            this.label19.Text = "Expiration";
             // 
-            // supplier
+            // txtAccountName
             // 
-            this.supplier.DataPropertyName = "supplier_name";
-            this.supplier.HeaderText = "Supplier";
-            this.supplier.MinimumWidth = 6;
-            this.supplier.Name = "supplier";
-            this.supplier.ReadOnly = true;
+            this.txtAccountName.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAccountName.Location = new System.Drawing.Point(31, 224);
+            this.txtAccountName.Name = "txtAccountName";
+            this.txtAccountName.Size = new System.Drawing.Size(265, 34);
+            this.txtAccountName.TabIndex = 50;
             // 
-            // person_assigned
+            // label17
             // 
-            this.person_assigned.DataPropertyName = "fullname";
-            this.person_assigned.HeaderText = "Person Assigned";
-            this.person_assigned.MinimumWidth = 6;
-            this.person_assigned.Name = "person_assigned";
-            this.person_assigned.ReadOnly = true;
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(27, 199);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(141, 25);
+            this.label17.TabIndex = 49;
+            this.label17.Text = "Account Name";
+            // 
+            // txtAccountNumber
+            // 
+            this.txtAccountNumber.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAccountNumber.Location = new System.Drawing.Point(31, 162);
+            this.txtAccountNumber.Name = "txtAccountNumber";
+            this.txtAccountNumber.Size = new System.Drawing.Size(265, 34);
+            this.txtAccountNumber.TabIndex = 48;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(27, 137);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(158, 25);
+            this.label15.TabIndex = 47;
+            this.label15.Text = "Account Number";
+            // 
+            // txtBankAccount
+            // 
+            this.txtBankAccount.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBankAccount.Location = new System.Drawing.Point(31, 100);
+            this.txtBankAccount.Name = "txtBankAccount";
+            this.txtBankAccount.Size = new System.Drawing.Size(265, 34);
+            this.txtBankAccount.TabIndex = 46;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(27, 75);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(134, 25);
+            this.label16.TabIndex = 45;
+            this.label16.Text = "Bank Account";
+            // 
+            // bankaccount_id
+            // 
+            this.bankaccount_id.DataPropertyName = "bankaccount_id";
+            this.bankaccount_id.HeaderText = "Account ID";
+            this.bankaccount_id.MinimumWidth = 6;
+            this.bankaccount_id.Name = "bankaccount_id";
+            this.bankaccount_id.ReadOnly = true;
+            this.bankaccount_id.Visible = false;
+            // 
+            // bank_account
+            // 
+            this.bank_account.DataPropertyName = "bankaccount";
+            this.bank_account.HeaderText = "Bank Account";
+            this.bank_account.MinimumWidth = 6;
+            this.bank_account.Name = "bank_account";
+            this.bank_account.ReadOnly = true;
+            // 
+            // account_number
+            // 
+            this.account_number.DataPropertyName = "account_number";
+            this.account_number.HeaderText = "Account Number";
+            this.account_number.MinimumWidth = 6;
+            this.account_number.Name = "account_number";
+            this.account_number.ReadOnly = true;
+            // 
+            // account_name
+            // 
+            this.account_name.DataPropertyName = "account_name";
+            this.account_name.HeaderText = "Account Name";
+            this.account_name.MinimumWidth = 6;
+            this.account_name.Name = "account_name";
+            this.account_name.ReadOnly = true;
+            // 
+            // expiration
+            // 
+            this.expiration.DataPropertyName = "expiration";
+            this.expiration.HeaderText = "Expiration";
+            this.expiration.MinimumWidth = 6;
+            this.expiration.Name = "expiration";
+            this.expiration.ReadOnly = true;
+            // 
+            // card_type
+            // 
+            this.card_type.DataPropertyName = "card_type";
+            this.card_type.HeaderText = "Card Type";
+            this.card_type.MinimumWidth = 6;
+            this.card_type.Name = "card_type";
+            this.card_type.ReadOnly = true;
+            // 
+            // dtpBankAccountExpiration
+            // 
+            this.dtpBankAccountExpiration.BackColor = System.Drawing.Color.White;
+            this.dtpBankAccountExpiration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.dtpBankAccountExpiration.BorderRadius = 0;
+            this.dtpBankAccountExpiration.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dtpBankAccountExpiration.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpBankAccountExpiration.ForeColor = System.Drawing.Color.SteelBlue;
+            this.dtpBankAccountExpiration.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpBankAccountExpiration.FormatCustom = "MMMM dd, yyyy";
+            this.dtpBankAccountExpiration.Location = new System.Drawing.Point(32, 354);
+            this.dtpBankAccountExpiration.Margin = new System.Windows.Forms.Padding(7);
+            this.dtpBankAccountExpiration.Name = "dtpBankAccountExpiration";
+            this.dtpBankAccountExpiration.Size = new System.Drawing.Size(264, 32);
+            this.dtpBankAccountExpiration.TabIndex = 57;
+            this.dtpBankAccountExpiration.Value = new System.DateTime(2020, 3, 21, 0, 0, 0, 0);
+            // 
+            // pnlExpenses
+            // 
+            this.pnlExpenses.Controls.Add(this.cmbExpensesPersonAssigned);
+            this.pnlExpenses.Controls.Add(this.dtpExpensesDate);
+            this.pnlExpenses.Controls.Add(this.btnExpensesDelete);
+            this.pnlExpenses.Controls.Add(this.btnExpensesUpdate);
+            this.pnlExpenses.Controls.Add(this.btnExpensesAdd);
+            this.pnlExpenses.Controls.Add(this.cmbExpensesDepartment);
+            this.pnlExpenses.Controls.Add(this.label24);
+            this.pnlExpenses.Controls.Add(this.label22);
+            this.pnlExpenses.Controls.Add(this.label23);
+            this.pnlExpenses.Controls.Add(this.txtExpensesAmount);
+            this.pnlExpenses.Controls.Add(this.label21);
+            this.pnlExpenses.Controls.Add(this.txtExpensesDesc);
+            this.pnlExpenses.Controls.Add(this.label20);
+            this.pnlExpenses.Location = new System.Drawing.Point(0, 0);
+            this.pnlExpenses.Name = "pnlExpenses";
+            this.pnlExpenses.Size = new System.Drawing.Size(550, 459);
+            this.pnlExpenses.TabIndex = 46;
+            // 
+            // btnExpensesDelete
+            // 
+            this.btnExpensesDelete.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnExpensesDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExpensesDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExpensesDelete.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnExpensesDelete.Location = new System.Drawing.Point(207, 335);
+            this.btnExpensesDelete.Name = "btnExpensesDelete";
+            this.btnExpensesDelete.Size = new System.Drawing.Size(152, 49);
+            this.btnExpensesDelete.TabIndex = 6;
+            this.btnExpensesDelete.Text = "Delete";
+            this.btnExpensesDelete.UseVisualStyleBackColor = false;
+            // 
+            // btnExpensesUpdate
+            // 
+            this.btnExpensesUpdate.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnExpensesUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExpensesUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExpensesUpdate.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnExpensesUpdate.Location = new System.Drawing.Point(365, 335);
+            this.btnExpensesUpdate.Name = "btnExpensesUpdate";
+            this.btnExpensesUpdate.Size = new System.Drawing.Size(152, 49);
+            this.btnExpensesUpdate.TabIndex = 7;
+            this.btnExpensesUpdate.Text = "Update";
+            this.btnExpensesUpdate.UseVisualStyleBackColor = false;
+            // 
+            // btnExpensesAdd
+            // 
+            this.btnExpensesAdd.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnExpensesAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExpensesAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExpensesAdd.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnExpensesAdd.Location = new System.Drawing.Point(49, 335);
+            this.btnExpensesAdd.Name = "btnExpensesAdd";
+            this.btnExpensesAdd.Size = new System.Drawing.Size(152, 49);
+            this.btnExpensesAdd.TabIndex = 5;
+            this.btnExpensesAdd.Text = "Add";
+            this.btnExpensesAdd.UseVisualStyleBackColor = false;
+            this.btnExpensesAdd.Click += new System.EventHandler(this.btnExpensesAdd_Click);
+            // 
+            // cmbExpensesDepartment
+            // 
+            this.cmbExpensesDepartment.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbExpensesDepartment.FormattingEnabled = true;
+            this.cmbExpensesDepartment.Items.AddRange(new object[] {
+            "Administrative Department",
+            "Employees Department",
+            "Management Department"});
+            this.cmbExpensesDepartment.Location = new System.Drawing.Point(285, 100);
+            this.cmbExpensesDepartment.Name = "cmbExpensesDepartment";
+            this.cmbExpensesDepartment.Size = new System.Drawing.Size(248, 33);
+            this.cmbExpensesDepartment.TabIndex = 3;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(281, 75);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(113, 25);
+            this.label24.TabIndex = 52;
+            this.label24.Text = "Department";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(281, 157);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(53, 25);
+            this.label22.TabIndex = 51;
+            this.label22.Text = "Date";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(18, 236);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(161, 25);
+            this.label23.TabIndex = 49;
+            this.label23.Text = "Person Assigned";
+            // 
+            // txtExpensesAmount
+            // 
+            this.txtExpensesAmount.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtExpensesAmount.Location = new System.Drawing.Point(21, 182);
+            this.txtExpensesAmount.Name = "txtExpensesAmount";
+            this.txtExpensesAmount.Size = new System.Drawing.Size(241, 34);
+            this.txtExpensesAmount.TabIndex = 1;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(25, 157);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(80, 25);
+            this.label21.TabIndex = 47;
+            this.label21.Text = "Amount";
+            // 
+            // txtExpensesDesc
+            // 
+            this.txtExpensesDesc.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtExpensesDesc.Location = new System.Drawing.Point(21, 99);
+            this.txtExpensesDesc.Name = "txtExpensesDesc";
+            this.txtExpensesDesc.Size = new System.Drawing.Size(241, 34);
+            this.txtExpensesDesc.TabIndex = 0;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(17, 74);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(154, 25);
+            this.label20.TabIndex = 45;
+            this.label20.Text = "Expenses Desc.";
+            // 
+            // dtpExpensesDate
+            // 
+            this.dtpExpensesDate.BackColor = System.Drawing.Color.White;
+            this.dtpExpensesDate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.dtpExpensesDate.BorderRadius = 0;
+            this.dtpExpensesDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dtpExpensesDate.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpExpensesDate.ForeColor = System.Drawing.Color.SteelBlue;
+            this.dtpExpensesDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpExpensesDate.FormatCustom = "MMMM dd, yyyy";
+            this.dtpExpensesDate.Location = new System.Drawing.Point(285, 182);
+            this.dtpExpensesDate.Margin = new System.Windows.Forms.Padding(7);
+            this.dtpExpensesDate.Name = "dtpExpensesDate";
+            this.dtpExpensesDate.Size = new System.Drawing.Size(248, 35);
+            this.dtpExpensesDate.TabIndex = 4;
+            this.dtpExpensesDate.Value = new System.DateTime(2020, 3, 21, 0, 0, 0, 0);
+            // 
+            // cmbExpensesPersonAssigned
+            // 
+            this.cmbExpensesPersonAssigned.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbExpensesPersonAssigned.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbExpensesPersonAssigned.Location = new System.Drawing.Point(21, 264);
+            this.cmbExpensesPersonAssigned.Name = "cmbExpensesPersonAssigned";
+            this.cmbExpensesPersonAssigned.Size = new System.Drawing.Size(241, 33);
+            this.cmbExpensesPersonAssigned.TabIndex = 2;
+            // 
+            // expenses_id
+            // 
+            this.expenses_id.DataPropertyName = "expenses_id";
+            this.expenses_id.HeaderText = "Expenses ID";
+            this.expenses_id.MinimumWidth = 6;
+            this.expenses_id.Name = "expenses_id";
+            this.expenses_id.ReadOnly = true;
+            this.expenses_id.Visible = false;
+            // 
+            // expenses_description
+            // 
+            this.expenses_description.DataPropertyName = "expenses_desc";
+            this.expenses_description.HeaderText = "Expenses Description";
+            this.expenses_description.MinimumWidth = 6;
+            this.expenses_description.Name = "expenses_description";
+            this.expenses_description.ReadOnly = true;
+            // 
+            // expenses_amount
+            // 
+            this.expenses_amount.DataPropertyName = "expenses_amount";
+            this.expenses_amount.HeaderText = "Amount";
+            this.expenses_amount.MinimumWidth = 6;
+            this.expenses_amount.Name = "expenses_amount";
+            this.expenses_amount.ReadOnly = true;
+            // 
+            // assigned_person
+            // 
+            this.assigned_person.DataPropertyName = "fullname";
+            this.assigned_person.HeaderText = "Person Assigned";
+            this.assigned_person.MinimumWidth = 6;
+            this.assigned_person.Name = "assigned_person";
+            this.assigned_person.ReadOnly = true;
+            // 
+            // date
+            // 
+            this.date.DataPropertyName = "expenses_date";
+            this.date.HeaderText = "Date";
+            this.date.MinimumWidth = 6;
+            this.date.Name = "date";
+            this.date.ReadOnly = true;
+            // 
+            // expenses_department
+            // 
+            this.expenses_department.DataPropertyName = "expenses_department";
+            this.expenses_department.HeaderText = "Department";
+            this.expenses_department.MinimumWidth = 6;
+            this.expenses_department.Name = "expenses_department";
+            this.expenses_department.ReadOnly = true;
             // 
             // Accounting
             // 
@@ -1256,14 +1340,16 @@
             this.pnlSupplier.ResumeLayout(false);
             this.pnlSupplier.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgSupplier)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bacc_datagrid)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.expenses_datagrid)).EndInit();
+            this.tabBankAccounts.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgBankAccounts)).EndInit();
+            this.tabExpenses.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgExpenses)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
+            this.pnlBankAccounts.ResumeLayout(false);
+            this.pnlBankAccounts.PerformLayout();
+            this.pnlExpenses.ResumeLayout(false);
+            this.pnlExpenses.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1273,52 +1359,16 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPurchases;
         private System.Windows.Forms.TabPage tabSupplier;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabBankAccounts;
+        private System.Windows.Forms.TabPage tabExpenses;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dtgPurchases;
         private Bunifu.Framework.UI.BunifuCustomDataGrid dtgSupplier;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.ComboBox card;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox acc_name;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox acc_num;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox bacc;
-        private System.Windows.Forms.Label label16;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bacc_datagrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bank_account;
-        private System.Windows.Forms.DataGridViewTextBoxColumn account_number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn account_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn expiration;
-        private System.Windows.Forms.DataGridViewTextBoxColumn card_type;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.ComboBox dept;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox assigned;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox amount;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox expense_desc;
-        private System.Windows.Forms.Label label20;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid expenses_datagrid;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dtgBankAccounts;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dtgExpenses;
         private Microsoft.Reporting.WinForms.ReportViewer fin_statement_viewer;
         private Microsoft.Reporting.WinForms.ReportViewer pro_loss_viewer;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_amount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn assigned_person;
-        private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private System.Windows.Forms.DataGridViewTextBoxColumn department;
         private System.Windows.Forms.Panel pnlSupplier;
         private System.Windows.Forms.Button btnSupplierDelete;
         private System.Windows.Forms.Button btnSupplierUpdate;
@@ -1367,5 +1417,45 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn purchase_date;
         private System.Windows.Forms.DataGridViewTextBoxColumn supplier;
         private System.Windows.Forms.DataGridViewTextBoxColumn person_assigned;
+        private System.Windows.Forms.Panel pnlBankAccounts;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button btnBankAccountDelete;
+        private System.Windows.Forms.Button btnBankAccountUpdate;
+        private System.Windows.Forms.Button btbnBankAccountAdd;
+        private System.Windows.Forms.ComboBox cmbCardType;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txtAccountName;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtAccountNumber;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txtBankAccount;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bankaccount_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bank_account;
+        private System.Windows.Forms.DataGridViewTextBoxColumn account_number;
+        private System.Windows.Forms.DataGridViewTextBoxColumn account_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expiration;
+        private System.Windows.Forms.DataGridViewTextBoxColumn card_type;
+        private Bunifu.Framework.UI.BunifuDatepicker dtpBankAccountExpiration;
+        private System.Windows.Forms.Panel pnlExpenses;
+        private System.Windows.Forms.Button btnExpensesDelete;
+        private System.Windows.Forms.Button btnExpensesUpdate;
+        private System.Windows.Forms.Button btnExpensesAdd;
+        private System.Windows.Forms.ComboBox cmbExpensesDepartment;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox txtExpensesAmount;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txtExpensesDesc;
+        private System.Windows.Forms.Label label20;
+        private Bunifu.Framework.UI.BunifuDatepicker dtpExpensesDate;
+        private System.Windows.Forms.ComboBox cmbExpensesPersonAssigned;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_description;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_amount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn assigned_person;
+        private System.Windows.Forms.DataGridViewTextBoxColumn date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expenses_department;
     }
 }

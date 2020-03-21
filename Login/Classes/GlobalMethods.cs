@@ -13,7 +13,7 @@ using System.Drawing;
 
 namespace Login.Classes
 {
-    public static class Methods
+    public static class GlobalMethods
     {
         public static void ClearItems(Control group)
         {
@@ -37,6 +37,10 @@ namespace Login.Classes
                     ((TextBox)control).Text = String.Empty;
                 else if (control is ComboBox)
                     ((ComboBox)control).SelectedIndex = -1;
+                else if (control is BunifuProgressBar)
+                    ((BunifuProgressBar)control).Value = 0;
+                else if (control is BunifuCustomLabel)
+                    ((BunifuCustomLabel)control).Text = "0%";
 
             }
         }

@@ -18,124 +18,19 @@ namespace Login
         {
             InitializeComponent();
         }
-
-        private void LoadAllMethods()
-        {
-            LoadGridViewPurchases();
-            LoadComboBoxEmployees();
-            LoadComboBoxSupplier();
-            LoadGridViewSupplier();
-        }
-        private void LoadComboBoxSupplier()
-        {
-            try
-            {
-                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
-                {
-                    connection.Open();
-                    string query = "SELECT supplier_id, supplier_name FROM tbl_suppliers ORDER BY supplier_name ASC;";
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        var da = new MySqlDataAdapter { SelectCommand = command };
-                        var dt = new DataTable();
-
-                        da.Fill(dt);
-
-                        cmbPurchasesSupplier.DataSource = dt;
-                        cmbPurchasesSupplier.DisplayMember = "supplier_name";
-                        cmbPurchasesSupplier.ValueMember = "supplier_id";
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-        private void LoadComboBoxEmployees()
-        {
-            try
-            {
-                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
-                {
-                    connection.Open();
-                    string query = "SELECT employee_id, CONCAT(firstname, ' ', middlename, ' ', lastname) fullname FROM tbl_employees ORDER BY lastname ASC;";
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        var da = new MySqlDataAdapter { SelectCommand = command };
-                        var dt = new DataTable();
-
-                        da.Fill(dt);
-
-                        cmbPurchasesPersonAssign.DataSource = dt;
-                        cmbPurchasesPersonAssign.DisplayMember = "fullname";
-                        cmbPurchasesPersonAssign.ValueMember = "employee_id";
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void LoadGridViewPurchases()
-        {
-            try
-            {
-                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
-                {
-                    
-                    connection.Open();
-                    string query = @"SELECT purch.purchase_id, purch.purchase_item, purch.purchase_number, purch.description, purch.quantity, purch.price, purch.total_amount, CONCAT(emp.firstname, ' ', emp.middlename, ' ', emp.lastname) fullname, date_format(purch.purchase_date, '%M %d, %Y') AS purchase_date, supp.supplier_name FROM tbl_purchases purch INNER JOIN tbl_employees emp ON purch.employee_id = emp.employee_id INNER JOIN tbl_suppliers supp ON purch.supplier_id = supp.supplier_id ORDER BY purch.purchase_item ASC;";
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        var da = new MySqlDataAdapter { SelectCommand = command };
-                        var dt = new DataTable();
-                        da.Fill(dt);
-
-                        dtgPurchases.AutoGenerateColumns = false;
-                        dtgPurchases.DataSource = dt;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void LoadGridViewSupplier()
-        {
-            try
-            {
-                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
-                {
-                    connection.Open();
-                    string query = "SELECT * FROM tbl_suppliers;";
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        var da = new MySqlDataAdapter { SelectCommand = command };
-                        var dt = new DataTable();
-                        da.Fill(dt);
-
-                        dtgSupplier.AutoGenerateColumns = false;
-                        dtgSupplier.DataSource = dt;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
+        
 
         private void Accounting_Load(object sender, EventArgs e)
         {
             this.fin_statement_viewer.RefreshReport();
             this.pro_loss_viewer.RefreshReport();
-            LoadAllMethods();
-            
+            Classes.AccountingMethods.LoadGridViewPurchases(dtgPurchases);
+            Classes.AccountingMethods.LoadComboBoxEmployees(cmbPurchasesPersonAssign);
+            Classes.AccountingMethods.LoadComboBoxSupplier(cmbPurchasesSupplier);
+            Classes.AccountingMethods.LoadGridViewSupplier(dtgSupplier);
+            Classes.AccountingMethods.LoadGridViewBankAccounts(dtgBankAccounts);
+            Classes.AccountingMethods.LoadComboBoxEmployees(cmbExpensesPersonAssigned);
+            Classes.AccountingMethods.LoadGridViewExpenses(dtgExpenses);
         }
 
 
@@ -150,7 +45,7 @@ namespace Login
 
         private void tabSupplier_Leave(object sender, EventArgs e)
         {
-            Classes.Methods.ClearItems(pnlSupplier);
+            Classes.GlobalMethods.ClearItems(pnlSupplier);
         }
 
         private void btnSupplierAdd_Click(object sender, EventArgs e)
@@ -169,8 +64,8 @@ namespace Login
                         command.Parameters.Add("supplier_contact", MySqlDbType.VarChar).Value = txtSupplierContactNo.Text;
                         command.ExecuteNonQuery();
                         MessageBox.Show("Successfully Saved!");
-                        Classes.Methods.ClearItems(pnlSupplier);
-                        LoadAllMethods();
+                        Classes.AccountingMethods.LoadGridViewSupplier(dtgSupplier);
+                        Classes.GlobalMethods.ClearItems(pnlSupplier);
                     }
                 }
             }
@@ -201,8 +96,8 @@ namespace Login
                         command.Parameters.Add("supplier_id", MySqlDbType.Int32).Value = cmbPurchasesSupplier.SelectedValue;
                         command.ExecuteNonQuery();
                         MessageBox.Show("Successfully Saved!");
-                        Classes.Methods.ClearItems(pnlPurchases);
-                        LoadAllMethods();
+                        Classes.AccountingMethods.LoadGridViewPurchases(dtgPurchases);
+                        Classes.GlobalMethods.ClearItems(pnlPurchases);
                     }
                 }
             }
@@ -214,7 +109,7 @@ namespace Login
 
         private void tabPurchases_Leave(object sender, EventArgs e)
         {
-            Classes.Methods.ClearItems(pnlPurchases);
+            Classes.GlobalMethods.ClearItems(pnlPurchases);
         }
 
         private void dtgPurchases_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -222,6 +117,90 @@ namespace Login
             
             cmbPurchasesPersonAssign.Text = dtgPurchases.CurrentRow.Cells[8].Value.ToString();
             cmbPurchasesSupplier.Text = dtgPurchases.CurrentRow.Cells[7].Value.ToString();
+        }
+
+        private void btbnBankAccountAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
+                {
+                    connection.Open();
+                    string query = "INSERT INTO tbl_bankaccounts (bankaccount, account_number, account_name, card_type, expiration) VALUES (@bankaccount, @account_number, @account_name, @card_type, @expiration);";
+                    using (var command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.Add("bankaccount", MySqlDbType.VarChar).Value = txtBankAccount.Text;
+                        command.Parameters.Add("account_number", MySqlDbType.VarChar).Value = txtAccountNumber.Text;
+                        command.Parameters.Add("account_name", MySqlDbType.VarChar).Value = txtAccountName.Text;
+                        command.Parameters.Add("card_type", MySqlDbType.VarChar).Value = cmbCardType.Text;
+                        command.Parameters.Add("expiration", MySqlDbType.Date).Value = dtpBankAccountExpiration.Value;
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Successfully Saved!");
+                        Classes.AccountingMethods.LoadGridViewBankAccounts(dtgBankAccounts);
+                        Classes.GlobalMethods.ClearItems(pnlBankAccounts);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void tabBankAccounts_Leave(object sender, EventArgs e)
+        {
+            Classes.GlobalMethods.ClearItems(pnlBankAccounts);
+        }
+
+        private void dtgBankAccounts_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtBankAccount.Text = dtgBankAccounts.CurrentRow.Cells[1].Value.ToString();
+            txtAccountNumber.Text = dtgBankAccounts.CurrentRow.Cells[2].Value.ToString();
+            txtAccountName.Text = dtgBankAccounts.CurrentRow.Cells[3].Value.ToString();
+            cmbCardType.Text = dtgBankAccounts.CurrentRow.Cells[5].Value.ToString();
+            dtpBankAccountExpiration.Value = (DateTime)dtgBankAccounts.CurrentRow.Cells[4].Value;
+        }
+
+        private void btnExpensesAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(ConfigurationManager.ConnectionStrings["POS_SYSTEM"].ConnectionString))
+                {
+                    connection.Open();
+                    string query = "INSERT INTO tbl_expenses (expenses_desc, expenses_amount, employee_id, expenses_department, expenses_date) VALUES (@expenses_desc, @expenses_amount, @employee_id, @expenses_department, @expenses_date);";
+                    using (var command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.Add("expenses_desc", MySqlDbType.VarChar).Value = txtExpensesDesc.Text;
+                        command.Parameters.Add("expenses_amount", MySqlDbType.Decimal).Value = txtExpensesAmount.Text;
+                        command.Parameters.Add("employee_id", MySqlDbType.Int32).Value = cmbExpensesPersonAssigned.SelectedValue;
+                        command.Parameters.Add("expenses_department", MySqlDbType.VarChar).Value = cmbExpensesDepartment.Text;
+                        command.Parameters.Add("expenses_date", MySqlDbType.Date).Value = dtpExpensesDate.Value;
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Successfully Saved!");
+                        Classes.AccountingMethods.LoadGridViewExpenses(dtgExpenses);
+                        Classes.GlobalMethods.ClearItems(pnlExpenses);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void tabExpenses_Leave(object sender, EventArgs e)
+        {
+            Classes.GlobalMethods.ClearItems(pnlExpenses);
+        }
+
+        private void dtgExpenses_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtExpensesDesc.Text = dtgExpenses.CurrentRow.Cells[1].Value.ToString();
+            txtExpensesAmount.Text = dtgExpenses.CurrentRow.Cells[2].Value.ToString();
+            cmbExpensesPersonAssigned.Text = dtgExpenses.CurrentRow.Cells[3].Value.ToString();
+            cmbExpensesDepartment.Text = dtgExpenses.CurrentRow.Cells[5].Value.ToString();
+            dtpExpensesDate.Value = (DateTime)dtgExpenses.CurrentRow.Cells[4].Value;
         }
     }
 }

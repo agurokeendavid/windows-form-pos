@@ -75,8 +75,8 @@ namespace Login
                             command.Parameters.Add("pin", MySqlDbType.VarChar).Value = txtPIN.Text;
                             command.ExecuteNonQuery();
                             MessageBox.Show("Successfully Save!");
-                            Classes.Methods.ClearItems(pnlBasicInfo);
-                            Classes.Methods.ClearItems(pnlEmployeeInfo);
+                            Classes.GlobalMethods.ClearItems(pnlBasicInfo);
+                            Classes.GlobalMethods.ClearItems(pnlEmployeeInfo);
                         }
                     }
                 }
@@ -96,8 +96,8 @@ namespace Login
         
         private void btnClear_Click(object sender, EventArgs e)
         {
-            Classes.Methods.ClearItems(pnlBasicInfo);
-            Classes.Methods.ClearItems(pnlEmployeeInfo);
+            Classes.GlobalMethods.ClearItems(pnlBasicInfo);
+            Classes.GlobalMethods.ClearItems(pnlEmployeeInfo);
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)

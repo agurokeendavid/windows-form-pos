@@ -120,7 +120,9 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Classes\Methods.cs" />
+    <Compile Include="Classes\AccountingMethods.cs" />
+    <Compile Include="Classes\FilesMethod.cs" />
+    <Compile Include="Classes\GlobalMethods.cs" />
     <Compile Include="Files.cs">
       <SubType>Form</SubType>
     </Compile>
