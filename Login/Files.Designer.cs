@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Files));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabDocuments = new System.Windows.Forms.TabPage();
             this.pnlDocuments = new System.Windows.Forms.Panel();
@@ -47,70 +47,85 @@
             this.pbDocumentsFile = new Bunifu.Framework.UI.BunifuProgressBar();
             this.btnSaveDocuments = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dtgDocuments = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtDocumentsFileName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.btnDocumentsViewFile = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.btnDocumentsUploadFile = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.reports = new System.Windows.Forms.TabPage();
-            this.gunaAdvenceButton5 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.bunifuCustomDataGrid3 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn2 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.gunaAdvenceButton6 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.permits = new System.Windows.Forms.TabPage();
-            this.gunaAdvenceButton4 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn1 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.info = new System.Windows.Forms.TabPage();
-            this.gunaAdvenceButton7 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.bunifuCustomDataGrid4 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewButtonColumn3 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.bunifuMaterialTextbox4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.gunaAdvenceButton8 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.document_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.document_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.document_file = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.document_upload = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.document_uploaded_by = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtDocumentsFileName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnDocumentsViewFile = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnDocumentsUploadFile = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.tabReports = new System.Windows.Forms.TabPage();
+            this.pnlReports = new System.Windows.Forms.Panel();
+            this.lblReportsPercentage = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pbReports = new Bunifu.Framework.UI.BunifuProgressBar();
+            this.btnReportSave = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.dtgReports = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.report_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.report_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.report_file_path = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.report_upload_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.report_uploaded_by = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtReportsFileName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnReportView = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnReportUpload = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.tabPermits = new System.Windows.Forms.TabPage();
+            this.pnlPermits = new System.Windows.Forms.Panel();
+            this.lblPermitPercentage = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pbPermits = new Bunifu.Framework.UI.BunifuProgressBar();
+            this.btnPermitSave = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.dtgPermits = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.permit_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.permit_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.permit_file = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.permit_upload_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.permit_uploaded_by = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtPermitFilename = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnPermitView = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnPermitUpload = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.tabInformation = new System.Windows.Forms.TabPage();
+            this.pnlInformation = new System.Windows.Forms.Panel();
+            this.lblInformationPercentage = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pbInformation = new Bunifu.Framework.UI.BunifuProgressBar();
+            this.btnInformationSave = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.dtgInformation = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.information_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.information_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.information_file = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.information_upload_date = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.information_uploaded_by = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtInformationFileName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btnInformationView = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnInformationUpload = new Guna.UI.WinForms.GunaAdvenceButton();
             this.tabControl1.SuspendLayout();
             this.tabDocuments.SuspendLayout();
             this.pnlDocuments.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDocuments)).BeginInit();
-            this.reports.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).BeginInit();
-            this.permits.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
-            this.info.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).BeginInit();
+            this.tabReports.SuspendLayout();
+            this.pnlReports.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgReports)).BeginInit();
+            this.tabPermits.SuspendLayout();
+            this.pnlPermits.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPermits)).BeginInit();
+            this.tabInformation.SuspendLayout();
+            this.pnlInformation.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgInformation)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabDocuments);
-            this.tabControl1.Controls.Add(this.reports);
-            this.tabControl1.Controls.Add(this.permits);
-            this.tabControl1.Controls.Add(this.info);
+            this.tabControl1.Controls.Add(this.tabReports);
+            this.tabControl1.Controls.Add(this.tabPermits);
+            this.tabControl1.Controls.Add(this.tabInformation);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -130,6 +145,7 @@
             this.tabDocuments.Size = new System.Drawing.Size(1308, 472);
             this.tabDocuments.TabIndex = 0;
             this.tabDocuments.Text = "Documents";
+            this.tabDocuments.Leave += new System.EventHandler(this.tabDocuments_Leave);
             // 
             // pnlDocuments
             // 
@@ -207,20 +223,20 @@
             // 
             this.dtgDocuments.AllowUserToAddRows = false;
             this.dtgDocuments.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dtgDocuments.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtgDocuments.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle23;
             this.dtgDocuments.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgDocuments.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.dtgDocuments.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgDocuments.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgDocuments.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgDocuments.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.dtgDocuments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgDocuments.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.document_id,
@@ -240,6 +256,47 @@
             this.dtgDocuments.RowHeadersWidth = 51;
             this.dtgDocuments.Size = new System.Drawing.Size(1059, 303);
             this.dtgDocuments.TabIndex = 22;
+            // 
+            // document_id
+            // 
+            this.document_id.DataPropertyName = "document_id";
+            this.document_id.HeaderText = "Document ID";
+            this.document_id.MinimumWidth = 6;
+            this.document_id.Name = "document_id";
+            this.document_id.ReadOnly = true;
+            // 
+            // document_name
+            // 
+            this.document_name.DataPropertyName = "document_name";
+            this.document_name.HeaderText = "Document Name";
+            this.document_name.MinimumWidth = 6;
+            this.document_name.Name = "document_name";
+            this.document_name.ReadOnly = true;
+            // 
+            // document_file
+            // 
+            this.document_file.DataPropertyName = "document_file";
+            this.document_file.HeaderText = "File Path";
+            this.document_file.MinimumWidth = 6;
+            this.document_file.Name = "document_file";
+            this.document_file.ReadOnly = true;
+            this.document_file.Visible = false;
+            // 
+            // document_upload
+            // 
+            this.document_upload.DataPropertyName = "upload_date";
+            this.document_upload.HeaderText = "Upload Date";
+            this.document_upload.MinimumWidth = 6;
+            this.document_upload.Name = "document_upload";
+            this.document_upload.ReadOnly = true;
+            // 
+            // document_uploaded_by
+            // 
+            this.document_uploaded_by.DataPropertyName = "uploaded_by";
+            this.document_uploaded_by.HeaderText = "Uploaded by";
+            this.document_uploaded_by.MinimumWidth = 6;
+            this.document_uploaded_by.Name = "document_uploaded_by";
+            this.document_uploaded_by.ReadOnly = true;
             // 
             // label2
             // 
@@ -350,124 +407,170 @@
             this.btnDocumentsUploadFile.Text = "Upload File";
             this.btnDocumentsUploadFile.Click += new System.EventHandler(this.btnDocumentsUploadFile_Click);
             // 
-            // reports
+            // tabReports
             // 
-            this.reports.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.reports.Controls.Add(this.gunaAdvenceButton5);
-            this.reports.Controls.Add(this.bunifuCustomDataGrid3);
-            this.reports.Controls.Add(this.label5);
-            this.reports.Controls.Add(this.label6);
-            this.reports.Controls.Add(this.bunifuMaterialTextbox3);
-            this.reports.Controls.Add(this.gunaAdvenceButton6);
-            this.reports.ForeColor = System.Drawing.Color.SteelBlue;
-            this.reports.Location = new System.Drawing.Point(4, 30);
-            this.reports.Name = "reports";
-            this.reports.Padding = new System.Windows.Forms.Padding(3);
-            this.reports.Size = new System.Drawing.Size(1308, 472);
-            this.reports.TabIndex = 1;
-            this.reports.Text = "Reports";
+            this.tabReports.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabReports.Controls.Add(this.pnlReports);
+            this.tabReports.ForeColor = System.Drawing.Color.SteelBlue;
+            this.tabReports.Location = new System.Drawing.Point(4, 30);
+            this.tabReports.Name = "tabReports";
+            this.tabReports.Padding = new System.Windows.Forms.Padding(3);
+            this.tabReports.Size = new System.Drawing.Size(1308, 472);
+            this.tabReports.TabIndex = 1;
+            this.tabReports.Text = "Reports";
+            this.tabReports.Leave += new System.EventHandler(this.tabReports_Leave);
             // 
-            // gunaAdvenceButton5
+            // pnlReports
             // 
-            this.gunaAdvenceButton5.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton5.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton5.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton5.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton5.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton5.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton5.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton5.CheckedImage = null;
-            this.gunaAdvenceButton5.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton5.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton5.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton5.Image")));
-            this.gunaAdvenceButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton5.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton5.Location = new System.Drawing.Point(920, 80);
-            this.gunaAdvenceButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton5.Name = "gunaAdvenceButton5";
-            this.gunaAdvenceButton5.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton5.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton5.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton5.OnHoverImage = null;
-            this.gunaAdvenceButton5.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton5.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton5.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton5.TabIndex = 25;
-            this.gunaAdvenceButton5.Text = "View File";
+            this.pnlReports.Controls.Add(this.lblReportsPercentage);
+            this.pnlReports.Controls.Add(this.pbReports);
+            this.pnlReports.Controls.Add(this.btnReportSave);
+            this.pnlReports.Controls.Add(this.dtgReports);
+            this.pnlReports.Controls.Add(this.label5);
+            this.pnlReports.Controls.Add(this.label6);
+            this.pnlReports.Controls.Add(this.txtReportsFileName);
+            this.pnlReports.Controls.Add(this.btnReportView);
+            this.pnlReports.Controls.Add(this.btnReportUpload);
+            this.pnlReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlReports.Location = new System.Drawing.Point(3, 3);
+            this.pnlReports.Name = "pnlReports";
+            this.pnlReports.Size = new System.Drawing.Size(1302, 466);
+            this.pnlReports.TabIndex = 0;
             // 
-            // bunifuCustomDataGrid3
+            // lblReportsPercentage
             // 
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle14;
-            this.bunifuCustomDataGrid3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bunifuCustomDataGrid3.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
-            this.bunifuCustomDataGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.dataGridViewButtonColumn2});
-            this.bunifuCustomDataGrid3.DoubleBuffered = true;
-            this.bunifuCustomDataGrid3.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid3.HeaderBgColor = System.Drawing.Color.RoyalBlue;
-            this.bunifuCustomDataGrid3.HeaderForeColor = System.Drawing.Color.AliceBlue;
-            this.bunifuCustomDataGrid3.Location = new System.Drawing.Point(127, 156);
-            this.bunifuCustomDataGrid3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuCustomDataGrid3.Name = "bunifuCustomDataGrid3";
-            this.bunifuCustomDataGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid3.RowHeadersWidth = 51;
-            this.bunifuCustomDataGrid3.Size = new System.Drawing.Size(1059, 303);
-            this.bunifuCustomDataGrid3.TabIndex = 24;
+            this.lblReportsPercentage.AutoSize = true;
+            this.lblReportsPercentage.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReportsPercentage.Location = new System.Drawing.Point(663, 133);
+            this.lblReportsPercentage.Name = "lblReportsPercentage";
+            this.lblReportsPercentage.Size = new System.Drawing.Size(28, 16);
+            this.lblReportsPercentage.TabIndex = 43;
+            this.lblReportsPercentage.Text = "0%";
             // 
-            // dataGridViewTextBoxColumn5
+            // pbReports
             // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Report ID";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.pbReports.BackColor = System.Drawing.Color.Silver;
+            this.pbReports.BorderRadius = 5;
+            this.pbReports.Location = new System.Drawing.Point(122, 133);
+            this.pbReports.Margin = new System.Windows.Forms.Padding(10, 12, 10, 12);
+            this.pbReports.MaximumValue = 100;
+            this.pbReports.Name = "pbReports";
+            this.pbReports.ProgressColor = System.Drawing.Color.Teal;
+            this.pbReports.Size = new System.Drawing.Size(528, 16);
+            this.pbReports.TabIndex = 42;
+            this.pbReports.Value = 0;
             // 
-            // dataGridViewTextBoxColumn6
+            // btnReportSave
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Report Name";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.btnReportSave.AnimationHoverSpeed = 0.07F;
+            this.btnReportSave.AnimationSpeed = 0.03F;
+            this.btnReportSave.BaseColor = System.Drawing.Color.Green;
+            this.btnReportSave.BorderColor = System.Drawing.Color.Black;
+            this.btnReportSave.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnReportSave.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnReportSave.CheckedForeColor = System.Drawing.Color.White;
+            this.btnReportSave.CheckedImage = null;
+            this.btnReportSave.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnReportSave.FocusedColor = System.Drawing.Color.Empty;
+            this.btnReportSave.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReportSave.ForeColor = System.Drawing.Color.White;
+            this.btnReportSave.Image = ((System.Drawing.Image)(resources.GetObject("btnReportSave.Image")));
+            this.btnReportSave.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnReportSave.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnReportSave.Location = new System.Drawing.Point(863, 76);
+            this.btnReportSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReportSave.Name = "btnReportSave";
+            this.btnReportSave.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnReportSave.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnReportSave.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnReportSave.OnHoverImage = null;
+            this.btnReportSave.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnReportSave.OnPressedColor = System.Drawing.Color.Black;
+            this.btnReportSave.Size = new System.Drawing.Size(155, 52);
+            this.btnReportSave.TabIndex = 41;
+            this.btnReportSave.Text = "Save File";
+            this.btnReportSave.Click += new System.EventHandler(this.btnReportSave_Click);
             // 
-            // dataGridViewTextBoxColumn7
+            // dtgReports
             // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Upload Date";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dtgReports.AllowUserToAddRows = false;
+            this.dtgReports.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtgReports.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            this.dtgReports.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgReports.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dtgReports.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgReports.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgReports.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            this.dtgReports.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgReports.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.report_id,
+            this.report_name,
+            this.report_file_path,
+            this.report_upload_date,
+            this.report_uploaded_by});
+            this.dtgReports.DoubleBuffered = true;
+            this.dtgReports.EnableHeadersVisualStyles = false;
+            this.dtgReports.HeaderBgColor = System.Drawing.Color.RoyalBlue;
+            this.dtgReports.HeaderForeColor = System.Drawing.Color.AliceBlue;
+            this.dtgReports.Location = new System.Drawing.Point(122, 154);
+            this.dtgReports.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgReports.Name = "dtgReports";
+            this.dtgReports.ReadOnly = true;
+            this.dtgReports.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgReports.RowHeadersWidth = 51;
+            this.dtgReports.Size = new System.Drawing.Size(1059, 303);
+            this.dtgReports.TabIndex = 40;
             // 
-            // dataGridViewTextBoxColumn8
+            // report_id
             // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Uploaded by";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.report_id.DataPropertyName = "report_id";
+            this.report_id.HeaderText = "Report ID";
+            this.report_id.MinimumWidth = 6;
+            this.report_id.Name = "report_id";
+            this.report_id.ReadOnly = true;
             // 
-            // dataGridViewButtonColumn2
+            // report_name
             // 
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.CadetBlue;
-            this.dataGridViewButtonColumn2.DefaultCellStyle = dataGridViewCellStyle16;
-            this.dataGridViewButtonColumn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dataGridViewButtonColumn2.HeaderText = "View";
-            this.dataGridViewButtonColumn2.MinimumWidth = 6;
-            this.dataGridViewButtonColumn2.Name = "dataGridViewButtonColumn2";
-            this.dataGridViewButtonColumn2.Text = "View";
-            this.dataGridViewButtonColumn2.ToolTipText = "View";
-            this.dataGridViewButtonColumn2.UseColumnTextForButtonValue = true;
+            this.report_name.DataPropertyName = "report_name";
+            this.report_name.HeaderText = "Report Name";
+            this.report_name.MinimumWidth = 6;
+            this.report_name.Name = "report_name";
+            this.report_name.ReadOnly = true;
+            // 
+            // report_file_path
+            // 
+            this.report_file_path.DataPropertyName = "report_file";
+            this.report_file_path.HeaderText = "File Path";
+            this.report_file_path.MinimumWidth = 6;
+            this.report_file_path.Name = "report_file_path";
+            this.report_file_path.ReadOnly = true;
+            this.report_file_path.Visible = false;
+            // 
+            // report_upload_date
+            // 
+            this.report_upload_date.DataPropertyName = "upload_date";
+            dataGridViewCellStyle27.NullValue = null;
+            this.report_upload_date.DefaultCellStyle = dataGridViewCellStyle27;
+            this.report_upload_date.HeaderText = "Upload Date";
+            this.report_upload_date.MinimumWidth = 6;
+            this.report_upload_date.Name = "report_upload_date";
+            this.report_upload_date.ReadOnly = true;
+            // 
+            // report_uploaded_by
+            // 
+            this.report_uploaded_by.DataPropertyName = "uploaded_by";
+            this.report_uploaded_by.HeaderText = "Uploaded By";
+            this.report_uploaded_by.MinimumWidth = 6;
+            this.report_uploaded_by.Name = "report_uploaded_by";
+            this.report_uploaded_by.ReadOnly = true;
             // 
             // label5
             // 
@@ -475,11 +578,11 @@
             this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(426, 41);
+            this.label5.Location = new System.Drawing.Point(435, 39);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(433, 25);
-            this.label5.TabIndex = 23;
+            this.label5.TabIndex = 39;
             this.label5.Text = "Uploading of Reports and Storage of Soft Copies";
             // 
             // label6
@@ -488,181 +591,259 @@
             this.label6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(541, 11);
+            this.label6.Location = new System.Drawing.Point(549, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 29);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Reports Section";
+            this.label6.Size = new System.Drawing.Size(187, 29);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Report Section";
             // 
-            // bunifuMaterialTextbox3
+            // txtReportsFileName
             // 
-            this.bunifuMaterialTextbox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox3.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.bunifuMaterialTextbox3.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox3.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox3.HintText = "";
-            this.bunifuMaterialTextbox3.isPassword = false;
-            this.bunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox3.LineThickness = 3;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(255, 78);
-            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
-            this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(493, 54);
-            this.bunifuMaterialTextbox3.TabIndex = 21;
-            this.bunifuMaterialTextbox3.Text = "File Name";
-            this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtReportsFileName.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtReportsFileName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtReportsFileName.Enabled = false;
+            this.txtReportsFileName.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReportsFileName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtReportsFileName.HintForeColor = System.Drawing.Color.Empty;
+            this.txtReportsFileName.HintText = "File Name";
+            this.txtReportsFileName.isPassword = false;
+            this.txtReportsFileName.LineFocusedColor = System.Drawing.Color.SteelBlue;
+            this.txtReportsFileName.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtReportsFileName.LineMouseHoverColor = System.Drawing.Color.SteelBlue;
+            this.txtReportsFileName.LineThickness = 3;
+            this.txtReportsFileName.Location = new System.Drawing.Point(122, 74);
+            this.txtReportsFileName.Margin = new System.Windows.Forms.Padding(8);
+            this.txtReportsFileName.Name = "txtReportsFileName";
+            this.txtReportsFileName.Size = new System.Drawing.Size(569, 54);
+            this.txtReportsFileName.TabIndex = 37;
+            this.txtReportsFileName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // gunaAdvenceButton6
+            // btnReportView
             // 
-            this.gunaAdvenceButton6.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton6.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton6.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton6.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton6.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton6.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton6.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton6.CheckedImage = null;
-            this.gunaAdvenceButton6.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton6.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton6.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton6.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton6.Image")));
-            this.gunaAdvenceButton6.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton6.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton6.Location = new System.Drawing.Point(757, 80);
-            this.gunaAdvenceButton6.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton6.Name = "gunaAdvenceButton6";
-            this.gunaAdvenceButton6.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton6.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton6.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton6.OnHoverImage = null;
-            this.gunaAdvenceButton6.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton6.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton6.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton6.TabIndex = 20;
-            this.gunaAdvenceButton6.Text = "Upload File";
+            this.btnReportView.AnimationHoverSpeed = 0.07F;
+            this.btnReportView.AnimationSpeed = 0.03F;
+            this.btnReportView.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnReportView.BorderColor = System.Drawing.Color.Black;
+            this.btnReportView.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnReportView.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnReportView.CheckedForeColor = System.Drawing.Color.White;
+            this.btnReportView.CheckedImage = null;
+            this.btnReportView.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnReportView.FocusedColor = System.Drawing.Color.Empty;
+            this.btnReportView.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReportView.ForeColor = System.Drawing.Color.White;
+            this.btnReportView.Image = ((System.Drawing.Image)(resources.GetObject("btnReportView.Image")));
+            this.btnReportView.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnReportView.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnReportView.Location = new System.Drawing.Point(1026, 76);
+            this.btnReportView.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReportView.Name = "btnReportView";
+            this.btnReportView.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnReportView.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnReportView.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnReportView.OnHoverImage = null;
+            this.btnReportView.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnReportView.OnPressedColor = System.Drawing.Color.Black;
+            this.btnReportView.Size = new System.Drawing.Size(155, 52);
+            this.btnReportView.TabIndex = 36;
+            this.btnReportView.Text = "View File";
+            this.btnReportView.Click += new System.EventHandler(this.btnReportView_Click);
             // 
-            // permits
+            // btnReportUpload
             // 
-            this.permits.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.permits.Controls.Add(this.gunaAdvenceButton4);
-            this.permits.Controls.Add(this.bunifuCustomDataGrid2);
-            this.permits.Controls.Add(this.label3);
-            this.permits.Controls.Add(this.label4);
-            this.permits.Controls.Add(this.bunifuMaterialTextbox2);
-            this.permits.Controls.Add(this.gunaAdvenceButton3);
-            this.permits.ForeColor = System.Drawing.Color.SteelBlue;
-            this.permits.Location = new System.Drawing.Point(4, 30);
-            this.permits.Name = "permits";
-            this.permits.Size = new System.Drawing.Size(1308, 472);
-            this.permits.TabIndex = 2;
-            this.permits.Text = "Permits";
+            this.btnReportUpload.AnimationHoverSpeed = 0.07F;
+            this.btnReportUpload.AnimationSpeed = 0.03F;
+            this.btnReportUpload.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnReportUpload.BorderColor = System.Drawing.Color.Black;
+            this.btnReportUpload.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnReportUpload.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnReportUpload.CheckedForeColor = System.Drawing.Color.White;
+            this.btnReportUpload.CheckedImage = null;
+            this.btnReportUpload.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnReportUpload.FocusedColor = System.Drawing.Color.Empty;
+            this.btnReportUpload.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReportUpload.ForeColor = System.Drawing.Color.White;
+            this.btnReportUpload.Image = ((System.Drawing.Image)(resources.GetObject("btnReportUpload.Image")));
+            this.btnReportUpload.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnReportUpload.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnReportUpload.Location = new System.Drawing.Point(700, 76);
+            this.btnReportUpload.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReportUpload.Name = "btnReportUpload";
+            this.btnReportUpload.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnReportUpload.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnReportUpload.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnReportUpload.OnHoverImage = null;
+            this.btnReportUpload.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnReportUpload.OnPressedColor = System.Drawing.Color.Black;
+            this.btnReportUpload.Size = new System.Drawing.Size(155, 52);
+            this.btnReportUpload.TabIndex = 35;
+            this.btnReportUpload.Text = "Upload File";
+            this.btnReportUpload.Click += new System.EventHandler(this.btnReportUpload_Click);
             // 
-            // gunaAdvenceButton4
+            // tabPermits
             // 
-            this.gunaAdvenceButton4.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton4.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton4.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton4.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton4.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton4.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton4.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton4.CheckedImage = null;
-            this.gunaAdvenceButton4.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton4.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton4.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton4.Image")));
-            this.gunaAdvenceButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton4.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton4.Location = new System.Drawing.Point(920, 80);
-            this.gunaAdvenceButton4.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton4.Name = "gunaAdvenceButton4";
-            this.gunaAdvenceButton4.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton4.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton4.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton4.OnHoverImage = null;
-            this.gunaAdvenceButton4.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton4.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton4.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton4.TabIndex = 19;
-            this.gunaAdvenceButton4.Text = "View File";
+            this.tabPermits.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPermits.Controls.Add(this.pnlPermits);
+            this.tabPermits.ForeColor = System.Drawing.Color.SteelBlue;
+            this.tabPermits.Location = new System.Drawing.Point(4, 30);
+            this.tabPermits.Name = "tabPermits";
+            this.tabPermits.Size = new System.Drawing.Size(1308, 472);
+            this.tabPermits.TabIndex = 2;
+            this.tabPermits.Text = "Permits";
+            this.tabPermits.Leave += new System.EventHandler(this.tabPermits_Leave);
             // 
-            // bunifuCustomDataGrid2
+            // pnlPermits
             // 
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
-            this.bunifuCustomDataGrid2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
-            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewButtonColumn1});
-            this.bunifuCustomDataGrid2.DoubleBuffered = true;
-            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.RoyalBlue;
-            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.AliceBlue;
-            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(128, 156);
-            this.bunifuCustomDataGrid2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
-            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid2.RowHeadersWidth = 51;
-            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(1059, 307);
-            this.bunifuCustomDataGrid2.TabIndex = 18;
+            this.pnlPermits.Controls.Add(this.lblPermitPercentage);
+            this.pnlPermits.Controls.Add(this.pbPermits);
+            this.pnlPermits.Controls.Add(this.btnPermitSave);
+            this.pnlPermits.Controls.Add(this.dtgPermits);
+            this.pnlPermits.Controls.Add(this.label3);
+            this.pnlPermits.Controls.Add(this.label4);
+            this.pnlPermits.Controls.Add(this.txtPermitFilename);
+            this.pnlPermits.Controls.Add(this.btnPermitView);
+            this.pnlPermits.Controls.Add(this.btnPermitUpload);
+            this.pnlPermits.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlPermits.Location = new System.Drawing.Point(0, 0);
+            this.pnlPermits.Name = "pnlPermits";
+            this.pnlPermits.Size = new System.Drawing.Size(1308, 472);
+            this.pnlPermits.TabIndex = 0;
             // 
-            // dataGridViewTextBoxColumn1
+            // lblPermitPercentage
             // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "Permit Number";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.lblPermitPercentage.AutoSize = true;
+            this.lblPermitPercentage.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPermitPercentage.Location = new System.Drawing.Point(666, 136);
+            this.lblPermitPercentage.Name = "lblPermitPercentage";
+            this.lblPermitPercentage.Size = new System.Drawing.Size(28, 16);
+            this.lblPermitPercentage.TabIndex = 61;
+            this.lblPermitPercentage.Text = "0%";
             // 
-            // dataGridViewTextBoxColumn2
+            // pbPermits
             // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Permit";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.pbPermits.BackColor = System.Drawing.Color.Silver;
+            this.pbPermits.BorderRadius = 5;
+            this.pbPermits.Location = new System.Drawing.Point(125, 136);
+            this.pbPermits.Margin = new System.Windows.Forms.Padding(15, 21, 15, 21);
+            this.pbPermits.MaximumValue = 100;
+            this.pbPermits.Name = "pbPermits";
+            this.pbPermits.ProgressColor = System.Drawing.Color.Teal;
+            this.pbPermits.Size = new System.Drawing.Size(523, 16);
+            this.pbPermits.TabIndex = 60;
+            this.pbPermits.Value = 0;
             // 
-            // dataGridViewTextBoxColumn3
+            // btnPermitSave
             // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Upload Date";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.btnPermitSave.AnimationHoverSpeed = 0.07F;
+            this.btnPermitSave.AnimationSpeed = 0.03F;
+            this.btnPermitSave.BaseColor = System.Drawing.Color.Green;
+            this.btnPermitSave.BorderColor = System.Drawing.Color.Black;
+            this.btnPermitSave.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnPermitSave.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPermitSave.CheckedForeColor = System.Drawing.Color.White;
+            this.btnPermitSave.CheckedImage = null;
+            this.btnPermitSave.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPermitSave.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPermitSave.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPermitSave.ForeColor = System.Drawing.Color.White;
+            this.btnPermitSave.Image = ((System.Drawing.Image)(resources.GetObject("btnPermitSave.Image")));
+            this.btnPermitSave.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnPermitSave.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnPermitSave.Location = new System.Drawing.Point(866, 79);
+            this.btnPermitSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPermitSave.Name = "btnPermitSave";
+            this.btnPermitSave.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnPermitSave.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPermitSave.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnPermitSave.OnHoverImage = null;
+            this.btnPermitSave.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPermitSave.OnPressedColor = System.Drawing.Color.Black;
+            this.btnPermitSave.Size = new System.Drawing.Size(155, 52);
+            this.btnPermitSave.TabIndex = 59;
+            this.btnPermitSave.Text = "Save File";
+            this.btnPermitSave.Click += new System.EventHandler(this.btnPermitSave_Click);
             // 
-            // dataGridViewTextBoxColumn4
+            // dtgPermits
             // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Uploaded by";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dtgPermits.AllowUserToAddRows = false;
+            this.dtgPermits.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtgPermits.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
+            this.dtgPermits.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgPermits.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dtgPermits.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgPermits.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgPermits.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            this.dtgPermits.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgPermits.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.permit_id,
+            this.permit_name,
+            this.permit_file,
+            this.permit_upload_date,
+            this.permit_uploaded_by});
+            this.dtgPermits.DoubleBuffered = true;
+            this.dtgPermits.EnableHeadersVisualStyles = false;
+            this.dtgPermits.HeaderBgColor = System.Drawing.Color.RoyalBlue;
+            this.dtgPermits.HeaderForeColor = System.Drawing.Color.AliceBlue;
+            this.dtgPermits.Location = new System.Drawing.Point(125, 157);
+            this.dtgPermits.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgPermits.Name = "dtgPermits";
+            this.dtgPermits.ReadOnly = true;
+            this.dtgPermits.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgPermits.RowHeadersWidth = 51;
+            this.dtgPermits.Size = new System.Drawing.Size(1059, 303);
+            this.dtgPermits.TabIndex = 58;
             // 
-            // dataGridViewButtonColumn1
+            // permit_id
             // 
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.CadetBlue;
-            this.dataGridViewButtonColumn1.DefaultCellStyle = dataGridViewCellStyle19;
-            this.dataGridViewButtonColumn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dataGridViewButtonColumn1.HeaderText = "View";
-            this.dataGridViewButtonColumn1.MinimumWidth = 6;
-            this.dataGridViewButtonColumn1.Name = "dataGridViewButtonColumn1";
-            this.dataGridViewButtonColumn1.Text = "View";
-            this.dataGridViewButtonColumn1.ToolTipText = "View";
-            this.dataGridViewButtonColumn1.UseColumnTextForButtonValue = true;
+            this.permit_id.DataPropertyName = "permit_id";
+            this.permit_id.HeaderText = "Permit Number";
+            this.permit_id.MinimumWidth = 6;
+            this.permit_id.Name = "permit_id";
+            this.permit_id.ReadOnly = true;
+            // 
+            // permit_name
+            // 
+            this.permit_name.DataPropertyName = "permit_name";
+            this.permit_name.HeaderText = "Permit";
+            this.permit_name.MinimumWidth = 6;
+            this.permit_name.Name = "permit_name";
+            this.permit_name.ReadOnly = true;
+            // 
+            // permit_file
+            // 
+            this.permit_file.DataPropertyName = "permit_file";
+            this.permit_file.HeaderText = "File Path";
+            this.permit_file.MinimumWidth = 6;
+            this.permit_file.Name = "permit_file";
+            this.permit_file.ReadOnly = true;
+            this.permit_file.Visible = false;
+            // 
+            // permit_upload_date
+            // 
+            this.permit_upload_date.DataPropertyName = "upload_date";
+            dataGridViewCellStyle30.NullValue = null;
+            this.permit_upload_date.DefaultCellStyle = dataGridViewCellStyle30;
+            this.permit_upload_date.HeaderText = "Upload Date";
+            this.permit_upload_date.MinimumWidth = 6;
+            this.permit_upload_date.Name = "permit_upload_date";
+            this.permit_upload_date.ReadOnly = true;
+            // 
+            // permit_uploaded_by
+            // 
+            this.permit_uploaded_by.DataPropertyName = "uploaded_by";
+            this.permit_uploaded_by.HeaderText = "Uploaded By";
+            this.permit_uploaded_by.MinimumWidth = 6;
+            this.permit_uploaded_by.Name = "permit_uploaded_by";
+            this.permit_uploaded_by.ReadOnly = true;
             // 
             // label3
             // 
@@ -670,11 +851,11 @@
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(426, 41);
+            this.label3.Location = new System.Drawing.Point(439, 42);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(431, 25);
-            this.label3.TabIndex = 17;
+            this.label3.TabIndex = 57;
             this.label3.Text = "Uploading of Permits and Storage of Soft Copies";
             // 
             // label4
@@ -683,181 +864,259 @@
             this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(541, 11);
+            this.label4.Location = new System.Drawing.Point(553, 12);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(184, 29);
-            this.label4.TabIndex = 16;
+            this.label4.TabIndex = 56;
             this.label4.Text = "Permit Section";
             // 
-            // bunifuMaterialTextbox2
+            // txtPermitFilename
             // 
-            this.bunifuMaterialTextbox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox2.HintText = "";
-            this.bunifuMaterialTextbox2.isPassword = false;
-            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox2.LineThickness = 3;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(255, 78);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(493, 54);
-            this.bunifuMaterialTextbox2.TabIndex = 15;
-            this.bunifuMaterialTextbox2.Text = "File Name";
-            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPermitFilename.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtPermitFilename.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPermitFilename.Enabled = false;
+            this.txtPermitFilename.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPermitFilename.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtPermitFilename.HintForeColor = System.Drawing.Color.Empty;
+            this.txtPermitFilename.HintText = "File Name";
+            this.txtPermitFilename.isPassword = false;
+            this.txtPermitFilename.LineFocusedColor = System.Drawing.Color.SteelBlue;
+            this.txtPermitFilename.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtPermitFilename.LineMouseHoverColor = System.Drawing.Color.SteelBlue;
+            this.txtPermitFilename.LineThickness = 3;
+            this.txtPermitFilename.Location = new System.Drawing.Point(125, 77);
+            this.txtPermitFilename.Margin = new System.Windows.Forms.Padding(8);
+            this.txtPermitFilename.Name = "txtPermitFilename";
+            this.txtPermitFilename.Size = new System.Drawing.Size(569, 54);
+            this.txtPermitFilename.TabIndex = 55;
+            this.txtPermitFilename.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // gunaAdvenceButton3
+            // btnPermitView
             // 
-            this.gunaAdvenceButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton3.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton3.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton3.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton3.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton3.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton3.CheckedImage = null;
-            this.gunaAdvenceButton3.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton3.Image")));
-            this.gunaAdvenceButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton3.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton3.Location = new System.Drawing.Point(757, 80);
-            this.gunaAdvenceButton3.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton3.Name = "gunaAdvenceButton3";
-            this.gunaAdvenceButton3.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton3.OnHoverImage = null;
-            this.gunaAdvenceButton3.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton3.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton3.TabIndex = 14;
-            this.gunaAdvenceButton3.Text = "Upload File";
+            this.btnPermitView.AnimationHoverSpeed = 0.07F;
+            this.btnPermitView.AnimationSpeed = 0.03F;
+            this.btnPermitView.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnPermitView.BorderColor = System.Drawing.Color.Black;
+            this.btnPermitView.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnPermitView.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPermitView.CheckedForeColor = System.Drawing.Color.White;
+            this.btnPermitView.CheckedImage = null;
+            this.btnPermitView.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPermitView.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPermitView.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPermitView.ForeColor = System.Drawing.Color.White;
+            this.btnPermitView.Image = ((System.Drawing.Image)(resources.GetObject("btnPermitView.Image")));
+            this.btnPermitView.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnPermitView.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnPermitView.Location = new System.Drawing.Point(1029, 79);
+            this.btnPermitView.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPermitView.Name = "btnPermitView";
+            this.btnPermitView.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnPermitView.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPermitView.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnPermitView.OnHoverImage = null;
+            this.btnPermitView.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPermitView.OnPressedColor = System.Drawing.Color.Black;
+            this.btnPermitView.Size = new System.Drawing.Size(155, 52);
+            this.btnPermitView.TabIndex = 54;
+            this.btnPermitView.Text = "View File";
+            this.btnPermitView.Click += new System.EventHandler(this.btnPermitView_Click);
             // 
-            // info
+            // btnPermitUpload
             // 
-            this.info.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.info.Controls.Add(this.gunaAdvenceButton7);
-            this.info.Controls.Add(this.bunifuCustomDataGrid4);
-            this.info.Controls.Add(this.label7);
-            this.info.Controls.Add(this.label8);
-            this.info.Controls.Add(this.bunifuMaterialTextbox4);
-            this.info.Controls.Add(this.gunaAdvenceButton8);
-            this.info.ForeColor = System.Drawing.Color.SteelBlue;
-            this.info.Location = new System.Drawing.Point(4, 30);
-            this.info.Name = "info";
-            this.info.Size = new System.Drawing.Size(1308, 472);
-            this.info.TabIndex = 3;
-            this.info.Text = "Information";
+            this.btnPermitUpload.AnimationHoverSpeed = 0.07F;
+            this.btnPermitUpload.AnimationSpeed = 0.03F;
+            this.btnPermitUpload.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnPermitUpload.BorderColor = System.Drawing.Color.Black;
+            this.btnPermitUpload.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnPermitUpload.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPermitUpload.CheckedForeColor = System.Drawing.Color.White;
+            this.btnPermitUpload.CheckedImage = null;
+            this.btnPermitUpload.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPermitUpload.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPermitUpload.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnPermitUpload.ForeColor = System.Drawing.Color.White;
+            this.btnPermitUpload.Image = ((System.Drawing.Image)(resources.GetObject("btnPermitUpload.Image")));
+            this.btnPermitUpload.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnPermitUpload.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnPermitUpload.Location = new System.Drawing.Point(703, 79);
+            this.btnPermitUpload.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPermitUpload.Name = "btnPermitUpload";
+            this.btnPermitUpload.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnPermitUpload.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPermitUpload.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnPermitUpload.OnHoverImage = null;
+            this.btnPermitUpload.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPermitUpload.OnPressedColor = System.Drawing.Color.Black;
+            this.btnPermitUpload.Size = new System.Drawing.Size(155, 52);
+            this.btnPermitUpload.TabIndex = 53;
+            this.btnPermitUpload.Text = "Upload File";
+            this.btnPermitUpload.Click += new System.EventHandler(this.btnPermitUpload_Click);
             // 
-            // gunaAdvenceButton7
+            // tabInformation
             // 
-            this.gunaAdvenceButton7.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton7.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton7.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton7.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton7.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton7.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton7.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton7.CheckedImage = null;
-            this.gunaAdvenceButton7.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton7.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton7.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton7.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton7.Image")));
-            this.gunaAdvenceButton7.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton7.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton7.Location = new System.Drawing.Point(920, 80);
-            this.gunaAdvenceButton7.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton7.Name = "gunaAdvenceButton7";
-            this.gunaAdvenceButton7.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton7.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton7.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton7.OnHoverImage = null;
-            this.gunaAdvenceButton7.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton7.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton7.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton7.TabIndex = 31;
-            this.gunaAdvenceButton7.Text = "View File";
+            this.tabInformation.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabInformation.Controls.Add(this.pnlInformation);
+            this.tabInformation.ForeColor = System.Drawing.Color.SteelBlue;
+            this.tabInformation.Location = new System.Drawing.Point(4, 30);
+            this.tabInformation.Name = "tabInformation";
+            this.tabInformation.Size = new System.Drawing.Size(1308, 472);
+            this.tabInformation.TabIndex = 3;
+            this.tabInformation.Text = "Information";
+            this.tabInformation.Leave += new System.EventHandler(this.tabInformation_Leave);
             // 
-            // bunifuCustomDataGrid4
+            // pnlInformation
             // 
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle20;
-            this.bunifuCustomDataGrid4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bunifuCustomDataGrid4.BackgroundColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCustomDataGrid4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.RoyalBlue;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.AliceBlue;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
-            this.bunifuCustomDataGrid4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bunifuCustomDataGrid4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewButtonColumn3});
-            this.bunifuCustomDataGrid4.DoubleBuffered = true;
-            this.bunifuCustomDataGrid4.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid4.HeaderBgColor = System.Drawing.Color.RoyalBlue;
-            this.bunifuCustomDataGrid4.HeaderForeColor = System.Drawing.Color.AliceBlue;
-            this.bunifuCustomDataGrid4.Location = new System.Drawing.Point(128, 157);
-            this.bunifuCustomDataGrid4.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuCustomDataGrid4.Name = "bunifuCustomDataGrid4";
-            this.bunifuCustomDataGrid4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid4.RowHeadersWidth = 51;
-            this.bunifuCustomDataGrid4.Size = new System.Drawing.Size(1059, 303);
-            this.bunifuCustomDataGrid4.TabIndex = 30;
+            this.pnlInformation.Controls.Add(this.lblInformationPercentage);
+            this.pnlInformation.Controls.Add(this.pbInformation);
+            this.pnlInformation.Controls.Add(this.btnInformationSave);
+            this.pnlInformation.Controls.Add(this.dtgInformation);
+            this.pnlInformation.Controls.Add(this.label7);
+            this.pnlInformation.Controls.Add(this.label8);
+            this.pnlInformation.Controls.Add(this.txtInformationFileName);
+            this.pnlInformation.Controls.Add(this.btnInformationView);
+            this.pnlInformation.Controls.Add(this.btnInformationUpload);
+            this.pnlInformation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlInformation.Location = new System.Drawing.Point(0, 0);
+            this.pnlInformation.Name = "pnlInformation";
+            this.pnlInformation.Size = new System.Drawing.Size(1308, 472);
+            this.pnlInformation.TabIndex = 0;
             // 
-            // dataGridViewTextBoxColumn9
+            // lblInformationPercentage
             // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Report ID";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.lblInformationPercentage.AutoSize = true;
+            this.lblInformationPercentage.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformationPercentage.Location = new System.Drawing.Point(666, 136);
+            this.lblInformationPercentage.Name = "lblInformationPercentage";
+            this.lblInformationPercentage.Size = new System.Drawing.Size(28, 16);
+            this.lblInformationPercentage.TabIndex = 70;
+            this.lblInformationPercentage.Text = "0%";
             // 
-            // dataGridViewTextBoxColumn10
+            // pbInformation
             // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Report Name";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.pbInformation.BackColor = System.Drawing.Color.Silver;
+            this.pbInformation.BorderRadius = 5;
+            this.pbInformation.Location = new System.Drawing.Point(125, 136);
+            this.pbInformation.Margin = new System.Windows.Forms.Padding(19, 28, 19, 28);
+            this.pbInformation.MaximumValue = 100;
+            this.pbInformation.Name = "pbInformation";
+            this.pbInformation.ProgressColor = System.Drawing.Color.Teal;
+            this.pbInformation.Size = new System.Drawing.Size(519, 16);
+            this.pbInformation.TabIndex = 69;
+            this.pbInformation.Value = 0;
             // 
-            // dataGridViewTextBoxColumn11
+            // btnInformationSave
             // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "Upload Date";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.btnInformationSave.AnimationHoverSpeed = 0.07F;
+            this.btnInformationSave.AnimationSpeed = 0.03F;
+            this.btnInformationSave.BaseColor = System.Drawing.Color.Green;
+            this.btnInformationSave.BorderColor = System.Drawing.Color.Black;
+            this.btnInformationSave.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnInformationSave.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnInformationSave.CheckedForeColor = System.Drawing.Color.White;
+            this.btnInformationSave.CheckedImage = null;
+            this.btnInformationSave.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnInformationSave.FocusedColor = System.Drawing.Color.Empty;
+            this.btnInformationSave.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnInformationSave.ForeColor = System.Drawing.Color.White;
+            this.btnInformationSave.Image = ((System.Drawing.Image)(resources.GetObject("btnInformationSave.Image")));
+            this.btnInformationSave.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnInformationSave.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnInformationSave.Location = new System.Drawing.Point(866, 79);
+            this.btnInformationSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInformationSave.Name = "btnInformationSave";
+            this.btnInformationSave.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnInformationSave.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnInformationSave.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnInformationSave.OnHoverImage = null;
+            this.btnInformationSave.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnInformationSave.OnPressedColor = System.Drawing.Color.Black;
+            this.btnInformationSave.Size = new System.Drawing.Size(155, 52);
+            this.btnInformationSave.TabIndex = 68;
+            this.btnInformationSave.Text = "Save File";
+            this.btnInformationSave.Click += new System.EventHandler(this.btnInformationSave_Click);
             // 
-            // dataGridViewTextBoxColumn12
+            // dtgInformation
             // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "Uploaded by";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dtgInformation.AllowUserToAddRows = false;
+            this.dtgInformation.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtgInformation.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            this.dtgInformation.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtgInformation.BackgroundColor = System.Drawing.Color.Gainsboro;
+            this.dtgInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgInformation.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.RoyalBlue;
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.AliceBlue;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgInformation.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            this.dtgInformation.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgInformation.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.information_id,
+            this.information_name,
+            this.information_file,
+            this.information_upload_date,
+            this.information_uploaded_by});
+            this.dtgInformation.DoubleBuffered = true;
+            this.dtgInformation.EnableHeadersVisualStyles = false;
+            this.dtgInformation.HeaderBgColor = System.Drawing.Color.RoyalBlue;
+            this.dtgInformation.HeaderForeColor = System.Drawing.Color.AliceBlue;
+            this.dtgInformation.Location = new System.Drawing.Point(125, 157);
+            this.dtgInformation.Margin = new System.Windows.Forms.Padding(4);
+            this.dtgInformation.Name = "dtgInformation";
+            this.dtgInformation.ReadOnly = true;
+            this.dtgInformation.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dtgInformation.RowHeadersWidth = 51;
+            this.dtgInformation.Size = new System.Drawing.Size(1059, 303);
+            this.dtgInformation.TabIndex = 67;
             // 
-            // dataGridViewButtonColumn3
+            // information_id
             // 
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.CadetBlue;
-            this.dataGridViewButtonColumn3.DefaultCellStyle = dataGridViewCellStyle22;
-            this.dataGridViewButtonColumn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dataGridViewButtonColumn3.HeaderText = "View";
-            this.dataGridViewButtonColumn3.MinimumWidth = 6;
-            this.dataGridViewButtonColumn3.Name = "dataGridViewButtonColumn3";
-            this.dataGridViewButtonColumn3.Text = "View";
-            this.dataGridViewButtonColumn3.ToolTipText = "View";
-            this.dataGridViewButtonColumn3.UseColumnTextForButtonValue = true;
+            this.information_id.DataPropertyName = "information_id";
+            this.information_id.HeaderText = "Information ID";
+            this.information_id.MinimumWidth = 6;
+            this.information_id.Name = "information_id";
+            this.information_id.ReadOnly = true;
+            // 
+            // information_name
+            // 
+            this.information_name.DataPropertyName = "information_name";
+            this.information_name.HeaderText = "Information";
+            this.information_name.MinimumWidth = 6;
+            this.information_name.Name = "information_name";
+            this.information_name.ReadOnly = true;
+            // 
+            // information_file
+            // 
+            this.information_file.DataPropertyName = "information_file";
+            this.information_file.HeaderText = "File Path";
+            this.information_file.MinimumWidth = 6;
+            this.information_file.Name = "information_file";
+            this.information_file.ReadOnly = true;
+            this.information_file.Visible = false;
+            // 
+            // information_upload_date
+            // 
+            this.information_upload_date.DataPropertyName = "upload_date";
+            dataGridViewCellStyle33.NullValue = null;
+            this.information_upload_date.DefaultCellStyle = dataGridViewCellStyle33;
+            this.information_upload_date.HeaderText = "Upload Date";
+            this.information_upload_date.MinimumWidth = 6;
+            this.information_upload_date.Name = "information_upload_date";
+            this.information_upload_date.ReadOnly = true;
+            // 
+            // information_uploaded_by
+            // 
+            this.information_uploaded_by.DataPropertyName = "uploaded_by";
+            this.information_uploaded_by.HeaderText = "Uploaded By";
+            this.information_uploaded_by.MinimumWidth = 6;
+            this.information_uploaded_by.Name = "information_uploaded_by";
+            this.information_uploaded_by.ReadOnly = true;
             // 
             // label7
             // 
@@ -865,11 +1124,11 @@
             this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(426, 41);
+            this.label7.Location = new System.Drawing.Point(423, 42);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(462, 25);
-            this.label7.TabIndex = 29;
+            this.label7.TabIndex = 66;
             this.label7.Text = "Uploading of Information and Storage of Soft Copies";
             // 
             // label8
@@ -878,104 +1137,95 @@
             this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(541, 11);
+            this.label8.Location = new System.Drawing.Point(537, 12);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(238, 29);
-            this.label8.TabIndex = 28;
+            this.label8.TabIndex = 65;
             this.label8.Text = "Information Section";
             // 
-            // bunifuMaterialTextbox4
+            // txtInformationFileName
             // 
-            this.bunifuMaterialTextbox4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuMaterialTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox4.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.bunifuMaterialTextbox4.ForeColor = System.Drawing.Color.Black;
-            this.bunifuMaterialTextbox4.HintForeColor = System.Drawing.Color.Empty;
-            this.bunifuMaterialTextbox4.HintText = "";
-            this.bunifuMaterialTextbox4.isPassword = false;
-            this.bunifuMaterialTextbox4.LineFocusedColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.bunifuMaterialTextbox4.LineThickness = 3;
-            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(255, 78);
-            this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
-            this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(493, 54);
-            this.bunifuMaterialTextbox4.TabIndex = 27;
-            this.bunifuMaterialTextbox4.Text = "File Name";
-            this.bunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtInformationFileName.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtInformationFileName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtInformationFileName.Enabled = false;
+            this.txtInformationFileName.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInformationFileName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtInformationFileName.HintForeColor = System.Drawing.Color.Empty;
+            this.txtInformationFileName.HintText = "File Name";
+            this.txtInformationFileName.isPassword = false;
+            this.txtInformationFileName.LineFocusedColor = System.Drawing.Color.SteelBlue;
+            this.txtInformationFileName.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtInformationFileName.LineMouseHoverColor = System.Drawing.Color.SteelBlue;
+            this.txtInformationFileName.LineThickness = 3;
+            this.txtInformationFileName.Location = new System.Drawing.Point(125, 77);
+            this.txtInformationFileName.Margin = new System.Windows.Forms.Padding(8);
+            this.txtInformationFileName.Name = "txtInformationFileName";
+            this.txtInformationFileName.Size = new System.Drawing.Size(569, 54);
+            this.txtInformationFileName.TabIndex = 64;
+            this.txtInformationFileName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // gunaAdvenceButton8
+            // btnInformationView
             // 
-            this.gunaAdvenceButton8.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton8.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton8.BaseColor = System.Drawing.Color.SteelBlue;
-            this.gunaAdvenceButton8.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton8.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton8.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton8.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton8.CheckedImage = null;
-            this.gunaAdvenceButton8.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton8.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton8.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton8.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton8.Image")));
-            this.gunaAdvenceButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton8.LineColor = System.Drawing.Color.RoyalBlue;
-            this.gunaAdvenceButton8.Location = new System.Drawing.Point(757, 80);
-            this.gunaAdvenceButton8.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaAdvenceButton8.Name = "gunaAdvenceButton8";
-            this.gunaAdvenceButton8.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
-            this.gunaAdvenceButton8.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton8.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton8.OnHoverImage = null;
-            this.gunaAdvenceButton8.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton8.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton8.Size = new System.Drawing.Size(155, 52);
-            this.gunaAdvenceButton8.TabIndex = 26;
-            this.gunaAdvenceButton8.Text = "Upload File";
+            this.btnInformationView.AnimationHoverSpeed = 0.07F;
+            this.btnInformationView.AnimationSpeed = 0.03F;
+            this.btnInformationView.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnInformationView.BorderColor = System.Drawing.Color.Black;
+            this.btnInformationView.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnInformationView.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnInformationView.CheckedForeColor = System.Drawing.Color.White;
+            this.btnInformationView.CheckedImage = null;
+            this.btnInformationView.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnInformationView.FocusedColor = System.Drawing.Color.Empty;
+            this.btnInformationView.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnInformationView.ForeColor = System.Drawing.Color.White;
+            this.btnInformationView.Image = ((System.Drawing.Image)(resources.GetObject("btnInformationView.Image")));
+            this.btnInformationView.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnInformationView.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnInformationView.Location = new System.Drawing.Point(1029, 79);
+            this.btnInformationView.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInformationView.Name = "btnInformationView";
+            this.btnInformationView.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnInformationView.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnInformationView.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnInformationView.OnHoverImage = null;
+            this.btnInformationView.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnInformationView.OnPressedColor = System.Drawing.Color.Black;
+            this.btnInformationView.Size = new System.Drawing.Size(155, 52);
+            this.btnInformationView.TabIndex = 63;
+            this.btnInformationView.Text = "View File";
+            this.btnInformationView.Click += new System.EventHandler(this.btnInformationView_Click);
             // 
-            // document_id
+            // btnInformationUpload
             // 
-            this.document_id.DataPropertyName = "document_id";
-            this.document_id.HeaderText = "Document ID";
-            this.document_id.MinimumWidth = 6;
-            this.document_id.Name = "document_id";
-            this.document_id.ReadOnly = true;
-            // 
-            // document_name
-            // 
-            this.document_name.DataPropertyName = "document_name";
-            this.document_name.HeaderText = "Document Name";
-            this.document_name.MinimumWidth = 6;
-            this.document_name.Name = "document_name";
-            this.document_name.ReadOnly = true;
-            // 
-            // document_file
-            // 
-            this.document_file.DataPropertyName = "document_file";
-            this.document_file.HeaderText = "File Path";
-            this.document_file.MinimumWidth = 6;
-            this.document_file.Name = "document_file";
-            this.document_file.ReadOnly = true;
-            this.document_file.Visible = false;
-            // 
-            // document_upload
-            // 
-            this.document_upload.DataPropertyName = "upload_date";
-            this.document_upload.HeaderText = "Upload Date";
-            this.document_upload.MinimumWidth = 6;
-            this.document_upload.Name = "document_upload";
-            this.document_upload.ReadOnly = true;
-            // 
-            // document_uploaded_by
-            // 
-            this.document_uploaded_by.DataPropertyName = "uploaded_by";
-            this.document_uploaded_by.HeaderText = "Uploaded by";
-            this.document_uploaded_by.MinimumWidth = 6;
-            this.document_uploaded_by.Name = "document_uploaded_by";
-            this.document_uploaded_by.ReadOnly = true;
+            this.btnInformationUpload.AnimationHoverSpeed = 0.07F;
+            this.btnInformationUpload.AnimationSpeed = 0.03F;
+            this.btnInformationUpload.BaseColor = System.Drawing.Color.SteelBlue;
+            this.btnInformationUpload.BorderColor = System.Drawing.Color.Black;
+            this.btnInformationUpload.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnInformationUpload.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnInformationUpload.CheckedForeColor = System.Drawing.Color.White;
+            this.btnInformationUpload.CheckedImage = null;
+            this.btnInformationUpload.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnInformationUpload.FocusedColor = System.Drawing.Color.Empty;
+            this.btnInformationUpload.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnInformationUpload.ForeColor = System.Drawing.Color.White;
+            this.btnInformationUpload.Image = ((System.Drawing.Image)(resources.GetObject("btnInformationUpload.Image")));
+            this.btnInformationUpload.ImageSize = new System.Drawing.Size(20, 20);
+            this.btnInformationUpload.LineColor = System.Drawing.Color.RoyalBlue;
+            this.btnInformationUpload.Location = new System.Drawing.Point(703, 79);
+            this.btnInformationUpload.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInformationUpload.Name = "btnInformationUpload";
+            this.btnInformationUpload.OnHoverBaseColor = System.Drawing.Color.CadetBlue;
+            this.btnInformationUpload.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnInformationUpload.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnInformationUpload.OnHoverImage = null;
+            this.btnInformationUpload.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnInformationUpload.OnPressedColor = System.Drawing.Color.Black;
+            this.btnInformationUpload.Size = new System.Drawing.Size(155, 52);
+            this.btnInformationUpload.TabIndex = 62;
+            this.btnInformationUpload.Text = "Upload File";
+            this.btnInformationUpload.Click += new System.EventHandler(this.btnInformationUpload_Click);
             // 
             // Files
             // 
@@ -987,20 +1237,24 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Files";
             this.Text = "Files";
+            this.Load += new System.EventHandler(this.Files_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabDocuments.ResumeLayout(false);
             this.pnlDocuments.ResumeLayout(false);
             this.pnlDocuments.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDocuments)).EndInit();
-            this.reports.ResumeLayout(false);
-            this.reports.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).EndInit();
-            this.permits.ResumeLayout(false);
-            this.permits.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
-            this.info.ResumeLayout(false);
-            this.info.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).EndInit();
+            this.tabReports.ResumeLayout(false);
+            this.pnlReports.ResumeLayout(false);
+            this.pnlReports.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgReports)).EndInit();
+            this.tabPermits.ResumeLayout(false);
+            this.pnlPermits.ResumeLayout(false);
+            this.pnlPermits.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPermits)).EndInit();
+            this.tabInformation.ResumeLayout(false);
+            this.pnlInformation.ResumeLayout(false);
+            this.pnlInformation.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgInformation)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1009,42 +1263,9 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabDocuments;
-        private System.Windows.Forms.TabPage reports;
-        private System.Windows.Forms.TabPage permits;
-        private System.Windows.Forms.TabPage info;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton4;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton5;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton6;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton7;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
-        private System.Windows.Forms.DataGridViewButtonColumn dataGridViewButtonColumn3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton8;
+        private System.Windows.Forms.TabPage tabReports;
+        private System.Windows.Forms.TabPage tabPermits;
+        private System.Windows.Forms.TabPage tabInformation;
         private System.Windows.Forms.Panel pnlDocuments;
         private Bunifu.Framework.UI.BunifuCustomLabel lblDocumentsFilePercent;
         private Bunifu.Framework.UI.BunifuProgressBar pbDocumentsFile;
@@ -1060,5 +1281,50 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn document_file;
         private System.Windows.Forms.DataGridViewTextBoxColumn document_upload;
         private System.Windows.Forms.DataGridViewTextBoxColumn document_uploaded_by;
+        private System.Windows.Forms.Panel pnlReports;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblReportsPercentage;
+        private Bunifu.Framework.UI.BunifuProgressBar pbReports;
+        private Guna.UI.WinForms.GunaAdvenceButton btnReportSave;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dtgReports;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtReportsFileName;
+        private Guna.UI.WinForms.GunaAdvenceButton btnReportView;
+        private Guna.UI.WinForms.GunaAdvenceButton btnReportUpload;
+        private System.Windows.Forms.DataGridViewTextBoxColumn report_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn report_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn report_file_path;
+        private System.Windows.Forms.DataGridViewTextBoxColumn report_upload_date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn report_uploaded_by;
+        private System.Windows.Forms.Panel pnlPermits;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblPermitPercentage;
+        private Bunifu.Framework.UI.BunifuProgressBar pbPermits;
+        private Guna.UI.WinForms.GunaAdvenceButton btnPermitSave;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dtgPermits;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtPermitFilename;
+        private Guna.UI.WinForms.GunaAdvenceButton btnPermitView;
+        private Guna.UI.WinForms.GunaAdvenceButton btnPermitUpload;
+        private System.Windows.Forms.DataGridViewTextBoxColumn permit_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn permit_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn permit_file;
+        private System.Windows.Forms.DataGridViewTextBoxColumn permit_upload_date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn permit_uploaded_by;
+        private System.Windows.Forms.Panel pnlInformation;
+        private Bunifu.Framework.UI.BunifuCustomLabel lblInformationPercentage;
+        private Bunifu.Framework.UI.BunifuProgressBar pbInformation;
+        private Guna.UI.WinForms.GunaAdvenceButton btnInformationSave;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid dtgInformation;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtInformationFileName;
+        private Guna.UI.WinForms.GunaAdvenceButton btnInformationView;
+        private Guna.UI.WinForms.GunaAdvenceButton btnInformationUpload;
+        private System.Windows.Forms.DataGridViewTextBoxColumn information_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn information_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn information_file;
+        private System.Windows.Forms.DataGridViewTextBoxColumn information_upload_date;
+        private System.Windows.Forms.DataGridViewTextBoxColumn information_uploaded_by;
     }
 }
