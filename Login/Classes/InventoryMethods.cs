@@ -15,7 +15,6 @@ namespace Login.Classes
 {
     public static class InventoryMethods
     {
-
         public static void LoadProductInformation(MetroComboBox cmbProductName, GunaTextBox txtItemNumber, GunaTextBox txtStocks, BunifuDatepicker dtpDateCreation, MetroComboBox cmbCategory)
         {
             try
