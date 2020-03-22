@@ -123,6 +123,7 @@
     <Compile Include="Classes\AccountingMethods.cs" />
     <Compile Include="Classes\FilesMethod.cs" />
     <Compile Include="Classes\GlobalMethods.cs" />
+    <Compile Include="Classes\InventoryMethods.cs" />
     <Compile Include="Files.cs">
       <SubType>Form</SubType>
     </Compile>

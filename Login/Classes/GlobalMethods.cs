@@ -1,15 +1,11 @@
 ﻿using Login.Properties;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Bunifu.Framework.UI;
 using MetroFramework.Controls;
 using WindowsFormsControlLibrary1;
 using XanderUI;
-using System.Drawing;
+using Guna.UI.WinForms;
 
 namespace Login.Classes
 {
@@ -41,6 +37,8 @@ namespace Login.Classes
                     ((BunifuProgressBar)control).Value = 0;
                 else if (control is BunifuCustomLabel)
                     ((BunifuCustomLabel)control).Text = "0%";
+                else if (control is GunaTextBox)
+                    ((GunaTextBox)control).Text = String.Empty;
 
             }
         }
